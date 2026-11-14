@@ -1,0 +1,5 @@
+---
+import Archive from '../../components/Archive.astro';
+import { getEntries } from '../../lib/entries';
+---
+<Archive entries={await getEntries()} />

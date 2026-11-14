@@ -1,0 +1,42 @@
+---
+import Base from '../layouts/Base.astro';
+import EntryList from '../components/EntryList.astro';
+import { entryLabel, entryPath, getEntries } from '../lib/entries';
+const entries = await getEntries();
+const latestAi = ['skills', 'weekly'].flatMap((series) => {
+  const latest = entries.find(({ data }) => data.kind === 'ai' && data.series === series);
+  return latest ? [latest] : [];
+});
+---
+<Base active="home">
+  <section class="home-hero">
+    <div class="hero-copy">
+      <p class="eyebrow"><span class="status-dot"></span> Lionxxw 的个人博客</p>
+      <h1>写代码，也写日常<span>。</span></h1>
+      <p>记录对技术的理解、生活里的片段，还有做过的小东西。</p>
+    </div>
+    <div class="hero-art" aria-hidden="true">
+      <div class="art-orbit"></div>
+      <div class="art-book"><i></i><i></i><i></i></div>
+      <span class="art-spark">✳</span>
+    </div>
+  </section>
+  <div class="home-grid">
+    <section aria-labelledby="latest">
+      <header class="section-head">
+        <h2 id="latest">最近更新</h2>
+        <a href="/archives/">全部归档 <span aria-hidden="true">↗</span></a>
+      </header>
+      <EntryList entries={entries.slice(0, 7)} headingLevel="h3" />
+    </section>
+    <aside class="dispatch" aria-labelledby="ai-dispatch">
+      <header class="dispatch-heading"><span aria-hidden="true">✳</span><h2 id="ai-dispatch">AI 观察</h2></header>
+      <ol>
+        {latestAi.map((entry) => (
+          <li><small>{entryLabel(entry)}</small><a href={entryPath(entry)}>{entry.data.title}</a></li>
+        ))}
+      </ol>
+      <a class="dispatch-link" href="/ai/">进入专栏 <span aria-hidden="true">↗</span></a>
+    </aside>
+  </div>
+</Base>

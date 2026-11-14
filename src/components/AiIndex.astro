@@ -1,0 +1,21 @@
+---
+import Base from '../layouts/Base.astro';
+import EntryList from './EntryList.astro';
+import { getEntries, seriesLabels } from '../lib/entries';
+const { series } = Astro.props as { series?: keyof typeof seriesLabels };
+const entries = (await getEntries()).filter(({ data }) => data.kind === 'ai' && (!series || data.series === series));
+const title = series ? seriesLabels[series] : 'AI 观察';
+---
+<Base title={title} active="ai">
+  <header class="page-intro">
+    {series && <a class="eyebrow" href="/ai/">← AI 观察</a>}
+    <h1>{title}<span>。</span></h1>
+    <p>{series === 'skills' ? '热门 Agent Skills、适用场景与 Codex 安装方式。' : series === 'weekly' ? 'GitHub 热门项目与最近值得关注的 AI 动态。' : '追踪热门 Skills、GitHub 项目与 AI 前沿动态。'}</p>
+  </header>
+  <nav class="series-nav" aria-label="AI 观察栏目">
+    <a href="/ai/" aria-current={!series ? 'page' : undefined}>全部</a>
+    <a href="/ai/skills/" aria-current={series === 'skills' ? 'page' : undefined}>Skills</a>
+    <a href="/ai/weekly/" aria-current={series === 'weekly' ? 'page' : undefined}>前沿技术</a>
+  </nav>
+  <EntryList entries={entries} />
+</Base>

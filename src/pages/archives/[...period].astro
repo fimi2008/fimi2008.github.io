@@ -1,0 +1,17 @@
+---
+import Archive from '../../components/Archive.astro';
+import { getEntries } from '../../lib/entries';
+
+export async function getStaticPaths() {
+  const entries = await getEntries();
+  return [
+    { params: { period: '2020' }, props: { title: '2020 年归档', prefix: '2020-' } },
+    { params: { period: '2020/11' }, props: { title: '2020 年 11 月归档', prefix: '2020-11-' } },
+  ].map(({ params, props }) => ({
+    params,
+    props: { title: props.title, entries: entries.filter(({ data }) => data.date.startsWith(props.prefix)) },
+  }));
+}
+const { title, entries } = Astro.props;
+---
+<Archive title={title} entries={entries} />

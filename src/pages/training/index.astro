@@ -1,0 +1,26 @@
+---
+import Base from '../../layouts/Base.astro';
+import EntryList from '../../components/EntryList.astro';
+import { getEntries, trainingLabels } from '../../lib/entries';
+
+const entries = (await getEntries()).filter(({ data }) => data.kind === 'training');
+const activities = Object.entries(trainingLabels);
+---
+<Base title="训练手记" description="从长跑、公路车和徒步，到最近的力量训练。" active="training">
+  <header class="page-intro">
+    <h1>训练手记<span>。</span></h1>
+    <p>以前跑长跑、骑公路车，也去徒步。最近开始记力量训练。</p>
+  </header>
+  {activities.map(([activity, label]) => {
+    const logs = entries.filter(({ data }) => data.kind === 'training' && data.activity === activity);
+    if (activity !== 'strength' && logs.length === 0) return null;
+    return (
+      <section aria-labelledby={activity}>
+        <header class="section-head"><h2 id={activity}>{label}</h2></header>
+        {logs.length
+          ? <EntryList entries={logs} headingLevel="h3" />
+          : <p class="empty">第一篇训练记录待更新。</p>}
+      </section>
+    );
+  })}
+</Base>

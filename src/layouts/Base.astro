@@ -1,0 +1,54 @@
+---
+import '../styles/site.css';
+interface Props {
+  title?: string;
+  description?: string;
+  active?: 'home' | 'archive' | 'notes' | 'training' | 'ai';
+}
+const { title, description = 'Lionxxw 的个人博客。技术文章、日常小记、训练手记与 AI 观察。', active } = Astro.props;
+const canonical = new URL(Astro.url.pathname.replace(/\/index\.html$/, '/'), Astro.site);
+const pageTitle = title ? `${title} · Lionxxw` : 'Lionxxw 的个人博客';
+const navigation = [
+  { key: 'home', href: '/', name: '首页' },
+  { key: 'archive', href: '/archives/', name: '归档' },
+  { key: 'notes', href: '/notes/', name: '日常小记' },
+  { key: 'training', href: '/training/', name: '训练手记' },
+  { key: 'ai', href: '/ai/', name: 'AI 观察' },
+];
+---
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical.href} />
+    <link rel="canonical" href={canonical.href} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="alternate" type="application/rss+xml" title="Lionxxw 的个人博客" href="/rss.xml" />
+    <title>{pageTitle}</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">跳到正文</a>
+    <header class="masthead">
+      <div class="shell mast-inner">
+        <a class="brand" href="/" aria-label="Lionxxw · 首页">lionxxw<span>.</span></a>
+        <nav aria-label="主导航">
+          {navigation.map(({ key, href, name }) => (
+            <a href={href} aria-current={key === active ? 'page' : undefined}>{name}</a>
+          ))}
+        </nav>
+        <a class="header-rss" href="/rss.xml">RSS <span aria-hidden="true">↗</span></a>
+      </div>
+    </header>
+    <main id="main" class="shell">
+      <slot />
+    </main>
+    <footer class="site-footer shell">
+      <a class="brand" href="/">lionxxw<span>.</span></a>
+      <div><a href="https://github.com/fimi2008">GitHub ↗</a><a href="/rss.xml">RSS ↗</a></div>
+    </footer>
+  </body>
+</html>

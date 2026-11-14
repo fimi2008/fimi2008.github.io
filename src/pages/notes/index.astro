@@ -1,0 +1,10 @@
+---
+import Base from '../../layouts/Base.astro';
+import EntryList from '../../components/EntryList.astro';
+import { getEntries } from '../../lib/entries';
+const notes = (await getEntries()).filter(({ data }) => data.kind === 'note');
+---
+<Base title="日常小记" active="notes">
+  <header class="page-intro"><h1>日常小记<span>。</span></h1><p>日记、生活琐记和做东西时随手记下的想法。</p></header>
+  <EntryList entries={notes} />
+</Base>

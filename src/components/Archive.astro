@@ -1,0 +1,20 @@
+---
+import Base from '../layouts/Base.astro';
+import EntryList from './EntryList.astro';
+import type { Entry } from '../lib/entries';
+const { entries, title = '归档' } = Astro.props as { entries: Entry[]; title?: string };
+const years = [...new Set(entries.map(({ data }) => data.date.slice(0, 4)))];
+---
+<Base title={title} active="archive">
+  <header class="page-intro">
+    <h1>{title}</h1>
+    <p>{entries.length} 篇文章与小记</p>
+    {title !== '归档' && <a href="/archives/">查看全部归档 ↗</a>}
+  </header>
+  {years.map((year) => (
+    <section class="archive-group">
+      <h2>{year}</h2>
+      <EntryList entries={entries.filter(({ data }) => data.date.startsWith(year))} headingLevel="h3" />
+    </section>
+  ))}
+</Base>

@@ -1,0 +1,45 @@
+---
+import { render } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import { entryLabel, entryPath, getEntries } from '../lib/entries';
+export async function getStaticPaths() {
+  return (await getEntries()).map((entry) => ({
+    params: { path: entryPath(entry).slice(1, -1) },
+    props: { entry },
+  }));
+}
+const { entry } = Astro.props;
+const { data } = entry;
+const { Content, headings } = await render(entry);
+const toc = headings.filter(({ depth }) => depth === 2);
+const section = {
+  article: { active: 'archive', path: '/archives/' },
+  note: { active: 'notes', path: '/notes/' },
+  training: { active: 'training', path: '/training/' },
+  ai: { active: 'ai', path: data.kind === 'ai' ? `/ai/${data.series}/` : '/ai/' },
+} as const;
+const { active, path: parent } = section[data.kind];
+---
+<Base title={data.title} description={data.description} active={active}>
+  <article class="article">
+    <header class="article-head">
+      <a class="eyebrow" href={parent}>← {entryLabel(entry)}</a>
+      <h1>{data.title}</h1>
+      <p>{data.description}</p>
+      <div class="article-meta">
+        <time datetime={data.date}>{data.date}</time>
+        {data.kind === 'ai' && <span>{data.sample ? '· 专栏样稿' : '· AI 观察'}</span>}
+      </div>
+      {data.kind === 'ai' && <div class="coverage">统计日期（北京时间） {data.period.start === data.period.end ? data.period.end : `${data.period.start} 至 ${data.period.end}`}</div>}
+    </header>
+    {toc.length > 1 && <nav class="article-toc" aria-label="文章目录">
+      <strong>目录</strong>
+      <ul>{toc.map(({ slug, text }) => <li><a href={`#${slug}`}>{text}</a></li>)}</ul>
+    </nav>}
+    <div class="prose"><Content /></div>
+    {data.kind === 'ai' && <section class="article-sources">
+      <h2>来源</h2>
+      <ul>{data.sources.map(({ title, url }) => <li><a href={url}>{title} ↗</a></li>)}</ul>
+    </section>}
+  </article>
+</Base>

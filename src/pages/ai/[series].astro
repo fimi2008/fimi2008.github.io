@@ -1,0 +1,9 @@
+---
+import AiIndex from '../../components/AiIndex.astro';
+import { seriesLabels } from '../../lib/entries';
+export function getStaticPaths() {
+  return Object.keys(seriesLabels).map((series) => ({ params: { series } }));
+}
+const series = Astro.params.series as keyof typeof seriesLabels;
+---
+<AiIndex series={series} />
