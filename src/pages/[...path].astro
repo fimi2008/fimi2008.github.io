@@ -1,7 +1,7 @@
 ---
 import { render } from 'astro:content';
 import Base from '../layouts/Base.astro';
-import { entryLabel, entryPath, getEntries } from '../lib/entries';
+import { entryLabel, entryPath, entrySeries, getEntries } from '../lib/entries';
 export async function getStaticPaths() {
   return (await getEntries()).map((entry) => ({
     params: { path: entryPath(entry).slice(1, -1) },
@@ -16,9 +16,12 @@ const section = {
   article: { active: 'archive', path: '/archives/' },
   note: { active: 'notes', path: '/notes/' },
   training: { active: 'training', path: '/training/' },
-  ai: { active: 'ai', path: data.kind === 'ai' ? `/ai/${data.series}/` : '/ai/' },
+  ai: { active: 'ai', path: '/ai/' },
 } as const;
-const { active, path: parent } = section[data.kind];
+const series = entrySeries(entry);
+const { active, path: parent } = series
+  ? { active: 'ai', path: `/ai/${series}/` } as const
+  : section[data.kind];
 ---
 <Base title={data.title} description={data.description} active={active}>
   <article class="article">

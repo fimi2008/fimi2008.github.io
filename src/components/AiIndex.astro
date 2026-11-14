@@ -1,9 +1,9 @@
 ---
 import Base from '../layouts/Base.astro';
 import EntryList from './EntryList.astro';
-import { getEntries, seriesLabels } from '../lib/entries';
+import { entrySeries, getEntries, seriesLabels } from '../lib/entries';
 const { series } = Astro.props as { series?: keyof typeof seriesLabels };
-const entries = (await getEntries()).filter(({ data }) => data.kind === 'ai' && (!series || data.series === series));
+const entries = (await getEntries()).filter((entry) => series ? entrySeries(entry) === series : Boolean(entrySeries(entry)));
 const title = series ? seriesLabels[series] : 'AI 观察';
 ---
 <Base title={title} active="ai">

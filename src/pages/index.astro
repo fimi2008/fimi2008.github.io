@@ -1,10 +1,10 @@
 ---
 import Base from '../layouts/Base.astro';
 import EntryList from '../components/EntryList.astro';
-import { entryLabel, entryPath, getEntries } from '../lib/entries';
+import { entryLabel, entryPath, entrySeries, getEntries } from '../lib/entries';
 const entries = await getEntries();
 const latestAi = ['skills', 'weekly'].flatMap((series) => {
-  const latest = entries.find(({ data }) => data.kind === 'ai' && data.series === series);
+  const latest = entries.find((entry) => entrySeries(entry) === series);
   return latest ? [latest] : [];
 });
 ---

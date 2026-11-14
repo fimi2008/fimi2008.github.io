@@ -14,8 +14,14 @@ export function entryPath({ data }: Entry) {
   return data.kind === 'ai' ? `/ai/${data.series}/${data.issue}/` : data.path;
 }
 
-export function entryLabel({ data }: Entry) {
-  if (data.kind === 'ai') return seriesLabels[data.series];
+export function entrySeries({ data }: Entry) {
+  if (data.kind === 'ai' || data.kind === 'article') return data.series;
+}
+
+export function entryLabel(entry: Entry) {
+  const series = entrySeries(entry);
+  if (series) return seriesLabels[series];
+  const { data } = entry;
   if (data.kind === 'training') return trainingLabels[data.activity];
   return data.kind === 'note' ? '日常小记' : '技术文章';
 }

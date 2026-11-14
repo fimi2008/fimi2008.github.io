@@ -22,6 +22,7 @@ const entries = defineCollection({
   schema: z.discriminatedUnion('kind', [
     z.object({
       ...articleFields, kind: z.literal('article'), path: entryPath,
+      series: z.literal('weekly').optional(),
       legacyAnchors: z.array(z.string().min(1)).optional(),
     }),
     z.object({ ...articleFields, kind: z.literal('note'), path: entryPath }),
