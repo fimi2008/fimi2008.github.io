@@ -1,0 +1,63 @@
+[
+  {
+    "id": "website-builder",
+    "url": "https://www.skills.sh/flowkit-labs/skills/website-builder",
+    "observedAt": "2026-11-14T07:18:11.257Z",
+    "headline": "website-builder",
+    "excerpts": [
+      "website-builder",
+      "website-builder",
+      "$ npx skills add https://github.com/flowkit-labs/skills --skill website-builder",
+      "38.0K"
+    ]
+  },
+  {
+    "id": "google-hydrogen",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+    "observedAt": "2026-11-14T07:18:16.612Z",
+    "headline": "Introducing Gemini 4 Hydrogen",
+    "excerpts": [
+      "Introducing Gemini 4 Hydrogen",
+      "Nov 12, 2026",
+      "Hydrogen brings cutting-edge intelligence to everyone.",
+      "Gemini 4 Hydrogen is available",
+      "Today, we’re introducing Gemini 4 Hydrogen, bringing cutting-edge intelligence to everyone — with speed and efficiency for everyday coding and agentic workflows.",
+      "While our frontier models, Gemini 4 Carbon and Gemini 4 Argon, excel at deep, long-horizon reasoning on your hardest problems, Hydrogen is built for rapid execution across diverse agentic workflows. With Hydrogen, we’re also bringing Gemini 4 to everyone — for",
+      "Hydrogen surpasses Argon on the Artificial Analysis Intelligence Index at its default high thinking level (51 vs. 50, and reaching 54 at its highest xhigh thinking setting), while often completing tasks faster than models in its class. Gemini 4 Hydrogen is pri",
+      "In real-world software development, while teams rely on frontier models like Carbon and Argon for deep architectural judgment when designing systems or untangling subtle bugs, they still need a fast, disciplined execution model for writing code, running tests,",
+      "To help make this multi-model collaboration automatic, we’re introducing Orchestrator in Google Antigravity. Rather than using a single model from start to finish, Orchestrator dynamically switches between models like Carbon and Hydrogen within the same sessio",
+      "Beyond multi-model workflows, Hydrogen is a major standalone upgrade for teams migrating from Gemini 3.8 Flash. It delivers significant leaps in both speed and intelligence — finishing tasks 2.5 times faster at its high default setting while more than tripling"
+    ]
+  },
+  {
+    "id": "google-decisions",
+    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+    "observedAt": "2026-11-14T07:18:19.049Z",
+    "headline": "Gemini Decisions API: Fast, calibrated multimodal decisions",
+    "excerpts": [
+      "Nov 11, 2026",
+      "Introducing the Gemini Decisions API, powered by our new Gemini Decision 1 model. Evaluate up to 1,000 yes/no, choice, and rubric-scoring questions in a fast, single pass across text, images, audio, video, and PDFs.",
+      "Today, we’re introducing the Gemini Decisions API, a new endpoint for fast, closed-set decisions powered by our new Gemini Decision 1 model (gemini-decision-1), available through the Gemini API in Google AI Studio.",
+      "The Decisions API gives you purpose-built primitives for bounded choices like tool selection, policy checks, model routing, and context grading. You can pass one multimodal input across text, images, audio, video, and PDFs (up to 256K tokens) along with up to ",
+      "Gemini 4 Hydrogen: everyday coding and agentic workflows for developers",
+      "Google Search gets a major upgrade with Gemini 4 Hydrogen"
+    ]
+  },
+  {
+    "id": "vercel-index",
+    "url": "https://vercel.com/blog/ai-gateway-production-index-november-2026",
+    "observedAt": "2026-11-14T07:18:23.002Z",
+    "headline": "Decision models take 26% of requests; Anthropic now wins new teams 2:1",
+    "excerpts": [
+      "Decision models take 26% of requests; Anthropic now wins new teams 2:1",
+      "Decision models account for 26% of all requests",
+      "Decision models went from none of the gateway's requests in August to 26% in October, while language models fell by over a fifth.",
+      "BY MODEL TYPE, JULY-OCTOBER 2026",
+      "THROUGH OCTOBER 2026",
+      "THROUGH OCTOBER 2026",
+      "LANGUAGE MODELS, THROUGH OCTOBER 2026",
+      "Opus 5.5 was the top model by spend in its first full month. It took about one in seven dollars across all teams. Four of the six most widely used models on AI Gateway are Anthropic’s: Sonnet 5.5 (reaching 26% of paid teams), Haiku 5.5 (22%), Haiku 4.5 (20%), ",
+      "This report uses anonymized, aggregate traffic routed through Vercel AI Gateway through October 2026."
+    ]
+  }
+]

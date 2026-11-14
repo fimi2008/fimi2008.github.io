@@ -1,0 +1,1 @@
+{"intent":"breaking_news","freshness_mode":"strict_recent","cluster_mode":"story","subqueries":[{"label":"browser comparison","search_query":"agent-browser Playwright MCP","ranking_query":"Recent direct comparisons with same task and observed results","sources":["reddit","hackernews","github"],"weight":1}]}

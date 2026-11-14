@@ -1,0 +1,58 @@
+[
+  {
+    "sha": "58ef24c6d88634ff42f60b0435f3685ccfa2d459",
+    "message": "chore: release v0.9.44 (#7708)",
+    "html_url": "https://github.com/heygen-com/hyperframes/commit/58ef24c6d88634ff42f60b0435f3685ccfa2d459",
+    "repository_full_name": "heygen-com/hyperframes",
+    "created_at": "2026-11-14T06:22:47Z"
+  },
+  {
+    "sha": "50c21c355aa2e2b5b5e8f203d4c38ce0bde6e6a3",
+    "message": "fix(cli): parse capture and grade-compare --timeout as a duration (#7715)\n\ncapture read --timeout with parseInt, so `--timeout 1s` became a 1 ms\npage-load timeout. grade-compare dropped an invalid value without a\nwarning. Both now use the shared parseTimeoutMs helper that check and\nsnapshot already use, keeping their defaults of 120000 ms and 5000 ms.\n\nFixes #7671",
+    "html_url": "https://github.com/heygen-com/hyperframes/commit/50c21c355aa2e2b5b5e8f203d4c38ce0bde6e6a3",
+    "repository_full_name": "heygen-com/hyperframes",
+    "created_at": "2026-11-14T04:30:52Z"
+  },
+  {
+    "sha": "3e69d0dff038e4b72bef0fa9395649a68c26eeed",
+    "message": "docs(cli): list --format and the 24-worker cap in docs rendering (#7716)\n\n`hyperframes docs rendering` said workers run 1-8, but the engine\nclamps an explicit value to 24, and it never mentioned --format or\n--gif-loop. The options now match render.ts and the engine limit.\n\nFixes #7668",
+    "html_url": "https://github.com/heygen-com/hyperframes/commit/3e69d0dff038e4b72bef0fa9395649a68c26eeed",
+    "repository_full_name": "heygen-com/hyperframes",
+    "created_at": "2026-11-14T04:16:14Z"
+  },
+  {
+    "sha": "690b07e4552fceacfc1d75af61d9ae1e1e6677d8",
+    "message": "feat(studio): toasts show as a centred pill that rises in (#7714)\n\n* feat(studio): toasts show as a centred pill that rises in\n\n* fix(studio): error toasts stay up on a click so their text can be copied",
+    "html_url": "https://github.com/heygen-com/hyperframes/commit/690b07e4552fceacfc1d75af61d9ae1e1e6677d8",
+    "repository_full_name": "heygen-com/hyperframes",
+    "created_at": "2026-11-14T04:15:03Z"
+  },
+  {
+    "sha": "3ce9ebeaf168a6d142fc259298214f9d35195a70",
+    "message": "fix(lint): say the audio overlap warning is about a shared Studio lane (#7700)\n\nduplicate_audio_track said two overlapping clips on one data-track-index\n\"cause layered audio playback\" and suggested moving one to another track.\nThe render's mixer never reads data-track-index (every audible clip is its own\namix input) and the docs call the attribute a Studio lane only, so the two\nclips are layered whatever their tracks: rendering a whoosh and a hit on\ntrack 6, then with the hit on track 7, gives byte-identical audio. The message\nnow says both play and that the overlap is two clips sharing one Studio lane;\nthe hint says splitting tracks leaves the mix unchanged, and that a leftover\nduplicate should be removed or moved. lint-rules.mdx said the audio \"doubles\nup\"; it now says the same as the message.\n\nCo-authored-by: Claude Opus 5.5 <noreply@anthropic.com>",
+    "html_url": "https://github.com/heygen-com/hyperframes/commit/3ce9ebeaf168a6d142fc259298214f9d35195a70",
+    "repository_full_name": "heygen-com/hyperframes",
+    "created_at": "2026-11-14T03:48:05Z"
+  },
+  {
+    "sha": "213f7c538305dc5773576eb92f45bc31f86a4ae6",
+    "message": "fix(cli): quote the project name in init's printed `cd` commands (#7608)\n\n`hyperframes init --non-interactive` closes with `cd <name> && npm run …`\nlines for the person or agent to paste. The name went in as typed, so a\nname with a space or a quote printed a command that fails as written:\n`cd my first video` (bash: \"cd: my: No such file or directory\", zsh: \"too\nmany arguments\") and `cd it's mine` (an unterminated quote).\n\nA new `shellArg` quotes a word only when a shell would split or expand\nit: double quotes, or single quotes when the text holds `$`, a backtick,\n`\\`, `\"` or `!`; on Windows, double quotes, with `\\` paths left bare.\n`hyperframes open` / `preview --stop` hints (desktopApp's `shownDir`)\nalready quoted whitespace with JSON.stringify and now use it too, so a\nname like `it's` or `a&b` is covered there as well.\n\nCo-authored-by: Claude Opus 5.5 <noreply@anthropic.com>",
+    "html_url": "https://github.com/heygen-com/hyperframes/commit/213f7c538305dc5773576eb92f45bc31f86a4ae6",
+    "repository_full_name": "heygen-com/hyperframes",
+    "created_at": "2026-11-14T03:47:58Z"
+  },
+  {
+    "sha": "2f31cc14b16b497641979e597637343e55302067",
+    "message": "fix(cli): the render header names the quality preset and CRF it encodes with (#7697)\n\nThe settings line printed the encoder tier, so the default render said\n\"30fps · standard · …\" while it encoded the looks preset at CRF 16, and\n-q delivery said \"high\". A long-form render that came out at ~40 Mbps\nread as \"standard quality\" in its own log.\n\nThe line now prints the --quality name as asked for and the CRF or\nbitrate in effect: \"looks (CRF 16)\" by default, \"looks (CRF 20)\" with\n--crf 20, \"looks (10M)\" with --video-bitrate 10M, \"draft\", \"delivery\".\n\nCo-authored-by: Claude Opus 5.5 <noreply@anthropic.com>",
+    "html_url": "https://github.com/heygen-com/hyperframes/commit/2f31cc14b16b497641979e597637343e55302067",
+    "repository_full_name": "heygen-com/hyperframes",
+    "created_at": "2026-11-14T03:47:55Z"
+  },
+  {
+    "sha": "08e11cb563725744804d9e61055baab61eefe976",
+    "message": "fix(check): name a color-graded video by its own selector in layout findings (#7699)\n\nA color-graded <video> is painted into a canvas the runtime inserts after it,\nwith a runtime-generated id (__hf_color_grading_<video id>). Layout findings on\nthat canvas (e.g. container_overflow for a punch-in inside an overflow:hidden\nbox) named the canvas, so the fix hint \"mark intentional overflow with\ndata-layout-allow-overflow\" pointed at an element the author never wrote.\nThe audit already reads flags from the authored video (authoredElement);\nuniqueSelectorFor now names that element too, so the finding's selector,\ndata attributes and source file are the video's.\n\nCo-authored-by: Claude Opus 5.5 <noreply@anthropic.com>",
+    "html_url": "https://github.com/heygen-com/hyperframes/commit/08e11cb563725744804d9e61055baab61eefe976",
+    "repository_full_name": "heygen-com/hyperframes",
+    "created_at": "2026-11-14T03:47:53Z"
+  }
+]

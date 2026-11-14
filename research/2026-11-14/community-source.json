@@ -1,0 +1,27 @@
+{
+  "publishedDate": "2026-11-10",
+  "url": "https://www.reddit.com/r/ClaudeCode/comments/1xsfn3i/agent_browser_vs_playwright_mcp_in_claude_code/",
+  "authorWriteup": "https://aiparabellum.com/agent-browser-vs-playwright-claude-code-tested/",
+  "retrieval": "public search index, after direct Reddit query returned 403",
+  "environment": {
+    "agent": "Claude Code",
+    "model": "Opus 5.5",
+    "task": "find three planted UI bugs in a demo shop",
+    "runsPerTool": 1
+  },
+  "reportedResults": [
+    {
+      "tool": "agent-browser",
+      "found": 3,
+      "seconds": 149,
+      "apiEquivalentUSD": 0.74
+    },
+    {
+      "tool": "Playwright MCP",
+      "found": 3,
+      "seconds": 112,
+      "apiEquivalentUSD": 0.64
+    }
+  ],
+  "limits": "Self-reported. One run per setup. Deployment, model and task were not replicated locally."
+}

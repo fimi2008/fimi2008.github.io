@@ -1,0 +1,132 @@
+{
+  "clusters": [
+    {
+      "engagement_total": 565,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "This was rolled out RIGHT away, as when I just went to use Gemini, seeing 3.8 Flash be replaced with \"4 Hydrogen\" was less hype and more a thought along the line of \"What [on Earth] is Gemini Hydrogen???\", then me going here to figure it out. This model naming scheme works for separate products, but... As this is a) being served in Search, b) supposed to be 2.5x faster than 3.8 Flash, c) the element with lowest atomic weight; I deduce that, despite being more capable than 3.8 Flash, now the \u201centry level\u201d model set to replace 3.5 Flash Lite. But it is priced the same as the non-discounted 3.8 Flash... If there are any Google employees reading: I...",
+      "title": "Gemini 4 Hydrogen"
+    },
+    {
+      "engagement_total": 533,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "Gemini 4 Hydrogen and Orchestrator",
+      "title": "Gemini 4 Hydrogen and Orchestrator"
+    },
+    {
+      "engagement_total": 567,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "I'm sort of surprised it took Jev for everyone to realize \"oh yeah, this is a useful thing that we should have in our product portfolio\". But maybe this is one of those things that's only obvious in retrospect? I'm sure people were trying something similar years ago with grammar-constrained outputs... This appears the first decision AI that actually handles audio, video, and PDF, and I'm surprised this isn't highlighted everywhere. Marketing seems to have dropped the ball on that. I doubt anyone's picking it for the +2% higher points, but being able to answer based on a PDF or call is groundbreak... A couple of weeks back, someone had posted this on HN - an interesting note about the...",
+      "title": "Gemini Decisions API"
+    },
+    {
+      "engagement_total": 8,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "The anti-marketing aspect of the Gemini network",
+      "title": "The anti-marketing aspect of the Gemini network"
+    }
+  ],
+  "freshness_verdicts": [],
+  "generated_at": "2026-11-14T07:18:41.712962Z",
+  "query": "AI developer releases",
+  "results": [
+    {
+      "candidate_id": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen",
+      "cluster": 0,
+      "engagement": {
+        "comments": 349,
+        "points": 565
+      },
+      "published_at": "2026-11-12",
+      "relevance_score": 0.3212,
+      "source": "hackernews",
+      "summary": "This was rolled out RIGHT away, as when I just went to use Gemini, seeing 3.8 Flash be replaced with \"4 Hydrogen\" was less hype and more a thought along the line of \"What [on Earth] is Gemini Hydrogen???\", then me going here to figure it out. This model naming scheme works for separate products, but... As this is a) being served in Search, b) supposed to be 2.5x faster than 3.8 Flash, c) the element with lowest atomic weight; I deduce that, despite being more capable than 3.8 Flash, now the \u201centry level\u201d model set to replace 3.5 Flash Lite. But it is priced the same as the non-discounted 3.8 Flash... If there are any Google employees reading: I...",
+      "title": "Gemini 4 Hydrogen",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/"
+    },
+    {
+      "candidate_id": "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity",
+      "cluster": 1,
+      "engagement": {
+        "comments": 161,
+        "points": 498
+      },
+      "published_at": "2026-11-12",
+      "relevance_score": 0.3104,
+      "source": "hackernews",
+      "summary": "Gemini 4 Hydrogen and Orchestrator",
+      "title": "Gemini 4 Hydrogen and Orchestrator",
+      "url": "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/"
+    },
+    {
+      "candidate_id": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api",
+      "cluster": 2,
+      "engagement": {
+        "comments": 161,
+        "points": 567
+      },
+      "published_at": "2026-11-11",
+      "relevance_score": 0.2977,
+      "source": "hackernews",
+      "summary": "I'm sort of surprised it took Jev for everyone to realize \"oh yeah, this is a useful thing that we should have in our product portfolio\". But maybe this is one of those things that's only obvious in retrospect? I'm sure people were trying something similar years ago with grammar-constrained outputs... This appears the first decision AI that actually handles audio, video, and PDF, and I'm surprised this isn't highlighted everywhere. Marketing seems to have dropped the ball on that. I doubt anyone's picking it for the +2% higher points, but being able to answer based on a PDF or call is groundbreak... A couple of weeks back, someone had posted this on HN - an interesting note about the...",
+      "title": "Gemini Decisions API",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/"
+    },
+    {
+      "candidate_id": "https://aistudio.google.com/docs/whats-new-gemini-4-hydrogen",
+      "cluster": 1,
+      "engagement": {
+        "comments": 2,
+        "points": 21
+      },
+      "published_at": "2026-11-12",
+      "relevance_score": 0.2243,
+      "source": "hackernews",
+      "summary": "Gemini 4 Hydrogen",
+      "title": "Gemini 4 Hydrogen",
+      "url": "https://aistudio.google.com/docs/whats-new-gemini-4-hydrogen"
+    },
+    {
+      "candidate_id": "https://deepmind.google/models/model-cards/gemini-4-hydrogen",
+      "cluster": 1,
+      "engagement": {
+        "comments": 3,
+        "points": 14
+      },
+      "published_at": "2026-11-12",
+      "relevance_score": 0.2226,
+      "source": "hackernews",
+      "summary": "Gemini 4 Hydrogen",
+      "title": "Gemini 4 Hydrogen",
+      "url": "https://deepmind.google/models/model-cards/gemini-4-hydrogen/"
+    },
+    {
+      "candidate_id": "https://ploum.net/2026-11-12-anti-marketing-gemini.html",
+      "cluster": 3,
+      "engagement": {
+        "comments": 0,
+        "points": 8
+      },
+      "published_at": "2026-11-13",
+      "relevance_score": 0.2145,
+      "source": "hackernews",
+      "summary": "The anti-marketing aspect of the Gemini network",
+      "title": "The anti-marketing aspect of the Gemini network",
+      "url": "https://ploum.net/2026-11-12-anti-marketing-gemini.html"
+    }
+  ],
+  "schema_version": "1.4",
+  "source_status": {
+    "hackernews": "ok",
+    "reddit": "auth-failed"
+  },
+  "usage": null,
+  "window_days": 7
+}

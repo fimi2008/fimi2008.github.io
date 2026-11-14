@@ -1,0 +1,14 @@
+{
+  "clusters": [],
+  "freshness_verdicts": [],
+  "generated_at": "2026-11-14T07:18:41.713901Z",
+  "query": "Codex browser automation",
+  "results": [],
+  "schema_version": "1.4",
+  "source_status": {
+    "hackernews": "ok",
+    "reddit": "auth-failed"
+  },
+  "usage": null,
+  "window_days": 7
+}

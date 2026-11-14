@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "skills": {
+    "last30days": {
+      "source": "mvanhorn/last30days-skill",
+      "ref": "f918b496b021fbc4db270ff3442fabf373a4a5f4",
+      "sourceType": "github",
+      "skillPath": "skills/last30days/SKILL.md",
+      "computedHash": "0b8600398e056c36bd453a9102deaeb45db9d127249fd9da92173737003a8b8c"
+    }
+  }
+}

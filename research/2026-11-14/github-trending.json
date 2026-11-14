@@ -1,0 +1,67 @@
+{
+  "url": "https://github.com/trending?since=weekly",
+  "observedAt": "2026-11-14T07:17:40.890Z",
+  "metric": "weekly trending",
+  "items": [
+    {
+      "url": "https://github.com/sherlock-project/sherlock",
+      "text": "Star\n sherlock-project / sherlock\n\nHunt down social media accounts by username across social networks\n\n Python  111,330  12,886 Built by     \n 13,364 stars this week"
+    },
+    {
+      "url": "https://github.com/anthropics/skills",
+      "text": "Star\n anthropics / skills\n\nPublic repository for Agent Skills\n\n Python  194,244  22,852 Built by     \n 6,169 stars this week"
+    },
+    {
+      "url": "https://github.com/milind-soni/OpenMausBot",
+      "text": "Sponsor\n Star\n milind-soni / OpenMausBot\n\nOpen-source Grok Bot alternative with a virtual machine that bots can use\n\n TypeScript  22,327  3,108 Built by     \n 7,763 stars this week"
+    },
+    {
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "text": "Star\n vercel-labs / agent-browser\n\nBrowser automation CLI for AI agents\n\n Rust  50,826  3,538 Built by     \n 4,360 stars this week"
+    },
+    {
+      "url": "https://github.com/google/elephant-goldfish-model",
+      "text": "Star\n google / elephant-goldfish-model\n\nOpen-source plugin for designing and reviewing software with agents\n\n Python  18,737  1,399 Built by     \n 5,560 stars this week"
+    },
+    {
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "text": "Sponsor\n Star\n ZhuLinsen / daily_stock_analysis\n\nLLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.\n\n Python  71,885  57,368 Built by     \n 3,778 stars this week"
+    },
+    {
+      "url": "https://github.com/NVIDIA/auto-ontology",
+      "text": "Star\n NVIDIA / auto-ontology\n\nAuto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.\n\n Python  12,636  1,039 Built by     \n 4,108 stars this week"
+    },
+    {
+      "url": "https://github.com/google-deepmind/mujoco",
+      "text": "Star\n google-deepmind / mujoco\n\nMulti-Joint dynamics with Contact. A general purpose physics simulator.\n\n C++  17,906  2,188 Built by     \n 1,764 stars this week"
+    },
+    {
+      "url": "https://github.com/mattpocock/skills",
+      "text": "Sponsor\n Starred\n mattpocock / skills\n\nSkills for Real Engineers. Straight from my .agents directory.\n\n Shell  323,979  27,193 Built by    \n 7,599 stars this week"
+    },
+    {
+      "url": "https://github.com/addyosmani/agent-skills",
+      "text": "Star\n addyosmani / agent-skills\n\nProduction-grade engineering skills for AI coding agents.\n\n JavaScript  117,249  12,264 Built by     \n 3,502 stars this week"
+    },
+    {
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "text": "Star\n cloudflare / security-audit-skill\n\nA coding-agent skill for multi-phase security audits with independently verified, machine-readable findings\n\n JavaScript  72,077  4,803 Built by   \n 8,829 stars this week"
+    },
+    {
+      "url": "https://github.com/zed-industries/zed",
+      "text": "Sponsor\n Star\n zed-industries / zed\n\nCode at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.\n\n Rust  94,987  11,697 Built by     \n 2,117 stars this week"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-quickstarts",
+      "text": "Star\n anthropics / claude-quickstarts\n\nA collection of projects designed to help developers quickly get started with building deployable applications using the Claude API\n\n Python  20,890  3,490 Built by     \n 1,731 stars this week"
+    },
+    {
+      "url": "https://github.com/vercel-labs/agent-desktop",
+      "text": "Star\n vercel-labs / agent-desktop\n\nComputer use CLI for AI agents\n\n Rust  23,436  1,737 Built by     \n 5,408 stars this week"
+    },
+    {
+      "url": "https://github.com/lobehub/lobehub",
+      "text": "Sponsor\n Star\n lobehub / lobehub\n\n🤯 LobeHub - Super-Agents on Your Team. Add super-agents to the chats your team already uses.They take on work by themselves and get better every week.\n\n TypeScript  85,461  16,303 Built by    \n 1,126 stars this week"
+    }
+  ]
+}

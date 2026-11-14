@@ -38,7 +38,10 @@ export async function getEntries() {
     }
     if (entry.data.kind === 'ai') {
       const { series, issue, period, date } = entry.data;
-      if (entry.id !== `${series}-${issue}` || period.start > period.end || issue !== period.end || date < issue) {
+      const start = Date.parse(`${period.start}T00:00:00Z`);
+      const end = Date.parse(`${period.end}T00:00:00Z`);
+      const inclusiveDays = (end - start) / 86_400_000 + 1;
+      if (entry.id !== `${series}-${issue}` || inclusiveDays !== 7 || issue !== period.end || date < issue) {
         throw new Error(`Invalid AI issue metadata: ${entry.id}`);
       }
     }
