@@ -1,0 +1,18 @@
+{
+  "observedAt": "2026-11-22T01:05:49.859Z",
+  "skill": {
+    "url": "https://www.skills.sh/kajisho5/ffmpeg-skill/ffmpeg-skill",
+    "title": "ffmpeg-skill — kajisho5/ffmpeg-skill",
+    "text": "skills\n/\nkajisho5\n/\nffmpeg-skill\n/\nffmpeg-skill\nffmpeg-skill\nINSTALLATION\nCommand\nPrompt\n$ npx skills add https://github.com/kajisho5/ffmpeg-skill --skill ffmpeg-skill\nSKILL.md\nffmpeg-skill\n\nScripts live in scripts/ next to this file; run them with python3 <skill-dir>/scripts/<name>.py, and delivery templates in templates/. This file is enough to do a job: the table below routes the request, and --help on the script about to run is the cheapest full flag list. A reference file costs as much as this one; open one only for a question you have: references/scripts.md (every flag of all 42 scripts), references/devices.md (iPhone HDR, GoPro, DJI, screen recordings, Zoom), references/gotchas.md (the long form of the one-line rules at the end). MCP: tools/list shows only the core 12 by default; the other 30 (per this table) stay callable by name via tools/call, described by contract --json; set FFMPEG_SKILL_MCP_FULL=1 for all 42.\n\nShared flags, on every script: --dry-run; --json (output path, a probe of the output, the commands run); --json-brief (status/output/verified plus a summary; prefer on writing steps); --fast (preview quality); --progress; --timeout SECONDS (kind: timeout, default 1800); --overwrite (step 7); --plan FILE (the dry run as a plan render.py FILE runs later; refuses if an input changed). Re-encoding tools also take --codec h264|hevc|av1|prores and --quality N: unset, SDR is x264, HDR is x265 Main10; prores needs -o NAME.mov, h264 refuses HDR (color.py --to-sdr first).\n\nWriting tools run nothing under --dry-run; the measuring tools (probe, check, sync, multicam, scenes, cropdetect, report, silence, loudness, stabilize) may still run ffmpeg/ffprobe, skipping artifacts/side files (--edl, --sheet, a generated .ass); verify ignores the flag. Per tool: contract --json dry_run.\n\nWorkflow (in this order)\nShow more\nINSTALLS\n2.1K\nREPOSITORY\nkajisho5/ffmpeg-skill\nGITHUB STARS\n9.1K\nFIRST SEEN\nSep 11, 2026\nSECURITY AUDITS\nGen Agent Trust Hub\nPASS\nSocket\nPASS\nSnyk\nPASS"
+  },
+  "douyin": {
+    "url": "https://www.douyin.com/video/7710439121986014514",
+    "title": "本月GitHub九大新神级项目，白嫖87家大模型 本月 GitHub 飙升的九个全新神级开源项目，全员之前没聊过：从聚合 87 家免费大模型接口的 FreeLLMAPI、用 49 个 AI 智能体做游戏的 Game Studios，到免费离线 AI 视频剪辑 Concat 和英伟达开源的安全扫描器 SkillSpector，还有直接接管手机和 Mac 的个人 AI Andee。你最想先试哪一个，评 - 抖音",
+    "published": [
+      "第88集 | 本月GitHub九大新神级项目，白嫖87家大模型 本月 GitHub 飙升的九个全新神级开源项目，全员之前没聊过：从聚合 87 家免费大模型接口的 FreeLLMAPI、用 49 个 AI 智能体做游戏的 Game Studios，到免费离线 AI 视频剪辑 Concat 和英伟达开源的安全扫描器 SkillSpector，还有直接接管手机和 Mac 的个人 AI Andee。你最想先试哪一个，评论区告诉我！ #抖音精选app知识充电站 #抖音精选app征稿中 #抖音前沿科技首发计划 #AI新星计划 #vibecoding大赏",
+      "发布时间：2026-11-21 10:01",
+      "FredTalk",
+      "第88集 | 本月GitHub九大新神级项目，白嫖87家大模型 本月 GitHub 飙升的九个全新神级开源项目，全员之前没聊过：从聚合 87 家免费大模型接口的 FreeLLMAPI、用 49 个 AI 智能体做游戏的 Game Studios，到免费离线 AI 视频剪辑 Concat 和英伟达开源的安全扫描器 SkillSpector，还有直接接管手机和 Mac 的个人 AI Andee。你最想先试哪一个，评论区告诉我！"
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "observedAt": "2026-11-22T01:06:34.447Z",
+  "url": "https://www.skills.sh/nvidia/skillevaluator/skillevaluator",
+  "title": "skillevaluator — nvidia/skillevaluator",
+  "text": "skills\n/\nnvidia\n/\nskillevaluator\n/\nskillevaluator\nskillevaluator\nINSTALLATION\nCommand\nPrompt\n$ npx skills add https://github.com/nvidia/skillevaluator --skill skillevaluator\nSKILL.md\nSkillEvaluator\n\nRun the SkillEvaluator CLI on agent skills and report what the evidence shows: Tier 1 validation (static, security, quality), Tier 2 deduplication, and Tier 3 live agent evaluation that compares runs with and without the skill.\n\nPurpose\n\nGive an agent one reliable procedure for evaluating skills with SkillEvaluator: pick the right tier, check readiness, run it, and report scores, findings and exit codes truthfully.\n\nWhen To Use\n\nUse this skill when the user wants to:\n\nShow more\nINSTALLS\n342\nREPOSITORY\nnvidia/skillevaluator\nGITHUB STARS\n4.3K\nFIRST SEEN\n14 days ago\nSECURITY AUDITS\nGen Agent Trust Hub\nPASS\nSocket\nPASS\nSnyk\nWARN"
+}

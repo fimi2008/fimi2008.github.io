@@ -1,0 +1,414 @@
+{
+  "observedAt": "2026-11-22T01:02:50.494682+00:00",
+  "records": [
+    {
+      "repo": "NVIDIA/SkillEvaluator",
+      "readmeUrl": "https://github.com/NVIDIA/SkillEvaluator/blob/4327960b90d1943d3f2df9ba023a454ee5aba07b/README.md",
+      "readmeRef": "4327960b90d1943d3f2df9ba023a454ee5aba07b",
+      "commits": [
+        {
+          "sha": "4327960b90d1943d3f2df9ba023a454ee5aba07b",
+          "url": "https://github.com/NVIDIA/SkillEvaluator/commit/4327960b90d1943d3f2df9ba023a454ee5aba07b",
+          "date": "2026-11-21T00:19:03Z",
+          "subject": "fix: update filelock, multidict, and pip security floors (#843)"
+        },
+        {
+          "sha": "bd9e22d9958339fac8d1b8ba34f4800837a8aa7a",
+          "url": "https://github.com/NVIDIA/SkillEvaluator/commit/bd9e22d9958339fac8d1b8ba34f4800837a8aa7a",
+          "date": "2026-11-20T23:10:00Z",
+          "subject": "fix: raise the Tier 3 MCP SDK security floor (#842)"
+        },
+        {
+          "sha": "d2016c80a41200fa46ff39e30ea55f363546cf03",
+          "url": "https://github.com/NVIDIA/SkillEvaluator/commit/d2016c80a41200fa46ff39e30ea55f363546cf03",
+          "date": "2026-11-20T22:26:48Z",
+          "subject": "fix: update optional networking and audit dependencies (#821)"
+        },
+        {
+          "sha": "2b82038dc438e639d03ee18ba068fb33cc21eca6",
+          "url": "https://github.com/NVIDIA/SkillEvaluator/commit/2b82038dc438e639d03ee18ba068fb33cc21eca6",
+          "date": "2026-11-20T21:32:09Z",
+          "subject": "fix: update LiteLLM and handle Bedrock HTTPS endpoints (#820)"
+        }
+      ]
+    },
+    {
+      "repo": "google-labs-code/stitch-skills",
+      "readmeUrl": "https://github.com/google-labs-code/stitch-skills/blob/62fdcd679747aca0792e5dd6591b10ddfad56825/README.md",
+      "readmeRef": "62fdcd679747aca0792e5dd6591b10ddfad56825",
+      "commits": [
+        {
+          "sha": "62fdcd679747aca0792e5dd6591b10ddfad56825",
+          "url": "https://github.com/google-labs-code/stitch-skills/commit/62fdcd679747aca0792e5dd6591b10ddfad56825",
+          "date": "2026-11-20T18:08:00Z",
+          "subject": "Merge pull request #105 from rudycelekli/fix/shadcn-tailwind-v4"
+        },
+        {
+          "sha": "9ba9f9edc85e145f57824bf237ea4b4b1c46ef21",
+          "url": "https://github.com/google-labs-code/stitch-skills/commit/9ba9f9edc85e145f57824bf237ea4b4b1c46ef21",
+          "date": "2026-11-20T18:05:41Z",
+          "subject": "Merge pull request #104 from rudycelekli/fix/react-native-intrinsic-elements"
+        },
+        {
+          "sha": "49ea7d041c2955c65b629f6905a1a6b4a33b972e",
+          "url": "https://github.com/google-labs-code/stitch-skills/commit/49ea7d041c2955c65b629f6905a1a6b4a33b972e",
+          "date": "2026-11-20T18:03:22Z",
+          "subject": "Merge pull request #103 from rudycelekli/fix/react-classname-expressions"
+        },
+        {
+          "sha": "0cdb1cab3acda19e4347f3a0447d818a507a537e",
+          "url": "https://github.com/google-labs-code/stitch-skills/commit/0cdb1cab3acda19e4347f3a0447d818a507a537e",
+          "date": "2026-11-20T02:31:27Z",
+          "subject": "Limit validation workflow token to read-only contents"
+        }
+      ]
+    },
+    {
+      "repo": "kajisho5/ffmpeg-skill",
+      "readmeUrl": "https://github.com/kajisho5/ffmpeg-skill/blob/55c172f79a3f66aa282308ef705a9668fb3f4564/README.md",
+      "readmeRef": "55c172f79a3f66aa282308ef705a9668fb3f4564",
+      "commits": [
+        {
+          "sha": "55c172f79a3f66aa282308ef705a9668fb3f4564",
+          "url": "https://github.com/kajisho5/ffmpeg-skill/commit/55c172f79a3f66aa282308ef705a9668fb3f4564",
+          "date": "2026-11-21T15:19:36Z",
+          "subject": "chore(release): bump version to 4.4.2 [skip ci]"
+        },
+        {
+          "sha": "3b36c66257ebc81dcecb323b4d5e8c286cb4e5ee",
+          "url": "https://github.com/kajisho5/ffmpeg-skill/commit/3b36c66257ebc81dcecb323b4d5e8c286cb4e5ee",
+          "date": "2026-11-21T15:19:18Z",
+          "subject": "fix: font_used.substituted is null where no face was established (#674)"
+        },
+        {
+          "sha": "2291d02eaaf70fd278f3c749a3d8e3cc96efbfba",
+          "url": "https://github.com/kajisho5/ffmpeg-skill/commit/2291d02eaaf70fd278f3c749a3d8e3cc96efbfba",
+          "date": "2026-11-21T13:52:26Z",
+          "subject": "chore(release): bump version to 4.4.1 [skip ci]"
+        },
+        {
+          "sha": "b816d219853db5fcdc0d44de31f13e5a32687d2c",
+          "url": "https://github.com/kajisho5/ffmpeg-skill/commit/b816d219853db5fcdc0d44de31f13e5a32687d2c",
+          "date": "2026-11-21T13:52:08Z",
+          "subject": "fix: a position given in milliseconds is its frame in freeze, broll and speedramp too (#672)"
+        }
+      ]
+    },
+    {
+      "repo": "Tencent/LoopForge",
+      "readmeUrl": "https://github.com/Tencent/LoopForge/blob/26ef6e1a0a3f53992829b9a848db3b0d8acd1375/README.md",
+      "readmeRef": "26ef6e1a0a3f53992829b9a848db3b0d8acd1375",
+      "commits": [
+        {
+          "sha": "26ef6e1a0a3f53992829b9a848db3b0d8acd1375",
+          "url": "https://github.com/Tencent/LoopForge/commit/26ef6e1a0a3f53992829b9a848db3b0d8acd1375",
+          "date": "2026-11-21T15:14:27Z",
+          "subject": "Fix role binding and settings in the SOP orchestrator (#1154)"
+        },
+        {
+          "sha": "1cc5db4e11b032af49bc3ab818ec49e4f35b134f",
+          "url": "https://github.com/Tencent/LoopForge/commit/1cc5db4e11b032af49bc3ab818ec49e4f35b134f",
+          "date": "2026-11-21T14:57:08Z",
+          "subject": "fix: isolate CodeBuddy model discovery per account (#1179)"
+        },
+        {
+          "sha": "5c343b4d3105fdebe318100e0fefe109cb3a92ab",
+          "url": "https://github.com/Tencent/LoopForge/commit/5c343b4d3105fdebe318100e0fefe109cb3a92ab",
+          "date": "2026-11-21T13:16:13Z",
+          "subject": "fix(workspace): show Docker build progress without default timeouts (#1175)"
+        },
+        {
+          "sha": "15842309075e82f6d3b59eb50d927989edc85b62",
+          "url": "https://github.com/Tencent/LoopForge/commit/15842309075e82f6d3b59eb50d927989edc85b62",
+          "date": "2026-11-21T11:02:52Z",
+          "subject": "fix: combine #1176 #1177 #1178 and address review comments (#1180)"
+        }
+      ]
+    },
+    {
+      "repo": "dream-num/univer",
+      "readmeUrl": "https://github.com/dream-num/univer/blob/ac29fd8aaa3ce43cd1f672e75a596da22c132616/README.md",
+      "readmeRef": "ac29fd8aaa3ce43cd1f672e75a596da22c132616",
+      "commits": [
+        {
+          "sha": "ac29fd8aaa3ce43cd1f672e75a596da22c132616",
+          "url": "https://github.com/dream-num/univer/commit/ac29fd8aaa3ce43cd1f672e75a596da22c132616",
+          "date": "2026-11-21T13:03:14Z",
+          "subject": "fix(ui): tighten panel insets (#8367)"
+        },
+        {
+          "sha": "eaf4cfa04fabdbcfc922c692f3450459f8a29546",
+          "url": "https://github.com/dream-num/univer/commit/eaf4cfa04fabdbcfc922c692f3450459f8a29546",
+          "date": "2026-11-21T07:50:58Z",
+          "subject": "chore(release): release v1.6.0"
+        },
+        {
+          "sha": "4e2f00ca4de29f7c65c43cefc469acc06cdc5ffa",
+          "url": "https://github.com/dream-num/univer/commit/4e2f00ca4de29f7c65c43cefc469acc06cdc5ffa",
+          "date": "2026-11-21T05:41:10Z",
+          "subject": "fix: enforce Sheets edit permissions and restore Docs behavior (#8366)"
+        },
+        {
+          "sha": "a035414b42166c6d22547135d039d44e10c35187",
+          "url": "https://github.com/dream-num/univer/commit/a035414b42166c6d22547135d039d44e10c35187",
+          "date": "2026-11-21T05:36:43Z",
+          "subject": "fix(sheets-formula-ui): restore cell menus when reference selection ends (#8365)"
+        }
+      ]
+    },
+    {
+      "repo": "obra/superpowers",
+      "readmeUrl": "https://github.com/obra/superpowers/blob/22f0b463e7a5e579904dd6211a520321035526f7/README.md",
+      "readmeRef": "22f0b463e7a5e579904dd6211a520321035526f7",
+      "commits": []
+    },
+    {
+      "repo": "alibaba/open-code-review",
+      "readmeUrl": "https://github.com/alibaba/open-code-review/blob/39515dca6161fb7fd176d87704b2b10e5f7a0c36/README.md",
+      "readmeRef": "39515dca6161fb7fd176d87704b2b10e5f7a0c36",
+      "commits": [
+        {
+          "sha": "39515dca6161fb7fd176d87704b2b10e5f7a0c36",
+          "url": "https://github.com/alibaba/open-code-review/commit/39515dca6161fb7fd176d87704b2b10e5f7a0c36",
+          "date": "2026-11-21T08:41:07Z",
+          "subject": "docs(runtime): remove the phase-one design note (#2031)"
+        },
+        {
+          "sha": "5f4d905f2d5e209aaa9e2f6e5495cc1cb82c0150",
+          "url": "https://github.com/alibaba/open-code-review/commit/5f4d905f2d5e209aaa9e2f6e5495cc1cb82c0150",
+          "date": "2026-11-21T08:33:06Z",
+          "subject": "fix(cli): show token usage in analysis reports (#2030)"
+        },
+        {
+          "sha": "d29ca2044a42ea297a7fa93692d0f5ac8f38d84e",
+          "url": "https://github.com/alibaba/open-code-review/commit/d29ca2044a42ea297a7fa93692d0f5ac8f38d84e",
+          "date": "2026-11-21T06:45:42Z",
+          "subject": "fix(viewer): keep the report header stable across tabs (#2022)"
+        },
+        {
+          "sha": "7e4ecad163fd584630815c1a3abf4b3708a893a0",
+          "url": "https://github.com/alibaba/open-code-review/commit/7e4ecad163fd584630815c1a3abf4b3708a893a0",
+          "date": "2026-11-21T06:39:00Z",
+          "subject": "feat(rules,allowlist): exclude Cargo test/benchmark paths and refine Rust rules (#1971)"
+        }
+      ]
+    },
+    {
+      "repo": "pingdotgg/t3code",
+      "readmeUrl": "https://github.com/pingdotgg/t3code/blob/d57b83d85ec2c3be7acb3746f7b6e5f73d4ccf9c/README.md",
+      "readmeRef": "d57b83d85ec2c3be7acb3746f7b6e5f73d4ccf9c",
+      "commits": [
+        {
+          "sha": "d57b83d85ec2c3be7acb3746f7b6e5f73d4ccf9c",
+          "url": "https://github.com/pingdotgg/t3code/commit/d57b83d85ec2c3be7acb3746f7b6e5f73d4ccf9c",
+          "date": "2026-11-21T15:59:24Z",
+          "subject": "perf(server): branch list reloads run 6 git processes instead of 9 (#40376)"
+        },
+        {
+          "sha": "08804b21700b1ec86f5fc593aa9de07fc3a23e5f",
+          "url": "https://github.com/pingdotgg/t3code/commit/08804b21700b1ec86f5fc593aa9de07fc3a23e5f",
+          "date": "2026-11-21T15:47:46Z",
+          "subject": "fix(server): a queued message that names no model runs on the thread's current pick (#40373)"
+        },
+        {
+          "sha": "b4277089795299da077e784f9f3432b3cc1c1c7d",
+          "url": "https://github.com/pingdotgg/t3code/commit/b4277089795299da077e784f9f3432b3cc1c1c7d",
+          "date": "2026-11-21T15:13:37Z",
+          "subject": "fix(issues): agents can file issues in any bound Linear team (#40299)"
+        },
+        {
+          "sha": "27125d7d16829de92c2ede3d4cc905c30ed1ce33",
+          "url": "https://github.com/pingdotgg/t3code/commit/27125d7d16829de92c2ede3d4cc905c30ed1ce33",
+          "date": "2026-11-21T14:59:54Z",
+          "subject": "fix(cli): thread --wait --json keeps a result a woken run submits (#40360)"
+        }
+      ]
+    },
+    {
+      "repo": "stablyai/orca",
+      "readmeUrl": "https://github.com/stablyai/orca/blob/c9c424721a81a7b42c22b6214d108327b2268ac2/README.md",
+      "readmeRef": "c9c424721a81a7b42c22b6214d108327b2268ac2",
+      "commits": [
+        {
+          "sha": "c9c424721a81a7b42c22b6214d108327b2268ac2",
+          "url": "https://github.com/stablyai/orca/commit/c9c424721a81a7b42c22b6214d108327b2268ac2",
+          "date": "2026-11-21T15:50:55Z",
+          "subject": "feat(bots): journal each closed item and its PRs in the bot's memory/journal/ (#46397)"
+        },
+        {
+          "sha": "dfab9813978eeded3d8d77faabb050c64a1bf395",
+          "url": "https://github.com/stablyai/orca/commit/dfab9813978eeded3d8d77faabb050c64a1bf395",
+          "date": "2026-11-21T15:50:14Z",
+          "subject": "fix(acp): merge layered session _meta so Antigravity keeps standing instructions (#46368)"
+        },
+        {
+          "sha": "217123db6699152bfc8c236bae8b541b345a284f",
+          "url": "https://github.com/stablyai/orca/commit/217123db6699152bfc8c236bae8b541b345a284f",
+          "date": "2026-11-21T15:43:12Z",
+          "subject": "feat(mobile): connect Linear, GitHub, Google and Composio from an agent's connectors (#46391)"
+        },
+        {
+          "sha": "d40b2dc983b9250ac93812048eb01fb8a04a7bbc",
+          "url": "https://github.com/stablyai/orca/commit/d40b2dc983b9250ac93812048eb01fb8a04a7bbc",
+          "date": "2026-11-21T15:29:50Z",
+          "subject": "fix(launch): do not submit a launch prompt into the shell after the agent CLI exits (#46346)"
+        }
+      ]
+    },
+    {
+      "repo": "debpalash/VoiceStudio",
+      "readmeUrl": "https://github.com/debpalash/VoiceStudio/blob/15cad9debde1adedad41b01a3bc8b18e6ab2f865/README.md",
+      "readmeRef": "15cad9debde1adedad41b01a3bc8b18e6ab2f865",
+      "commits": [
+        {
+          "sha": "15cad9debde1adedad41b01a3bc8b18e6ab2f865",
+          "url": "https://github.com/debpalash/VoiceStudio/commit/15cad9debde1adedad41b01a3bc8b18e6ab2f865",
+          "date": "2026-11-21T15:21:21Z",
+          "subject": "fix(omnivoice): trim long-reference windows on every clone path (#4272)"
+        },
+        {
+          "sha": "c9189c0f69722d93572600728b438b5a0dd4cfc2",
+          "url": "https://github.com/debpalash/VoiceStudio/commit/c9189c0f69722d93572600728b438b5a0dd4cfc2",
+          "date": "2026-11-21T13:57:59Z",
+          "subject": "perf: faster dub pipeline, transcription and job saves (#4323)"
+        },
+        {
+          "sha": "42f0f93b8f741c681861866b850add73501262ae",
+          "url": "https://github.com/debpalash/VoiceStudio/commit/42f0f93b8f741c681861866b850add73501262ae",
+          "date": "2026-11-21T13:33:25Z",
+          "subject": "ci: faster Python tests and ROCm image builds; smaller installers (#4322)"
+        },
+        {
+          "sha": "1f658f844eaf05955f77db838baaf672c81bfc1e",
+          "url": "https://github.com/debpalash/VoiceStudio/commit/1f658f844eaf05955f77db838baaf672c81bfc1e",
+          "date": "2026-11-21T13:02:31Z",
+          "subject": "perf: speed up Electron startup, UI responsiveness, and backend DB/engine boot (#4320)"
+        }
+      ]
+    },
+    {
+      "repo": "mattpocock/skills",
+      "readmeUrl": "https://github.com/mattpocock/skills/blob/abeeaf95660ba9e8b7c753eb38f441ca707a8823/README.md",
+      "readmeRef": "abeeaf95660ba9e8b7c753eb38f441ca707a8823",
+      "commits": [
+        {
+          "sha": "abeeaf95660ba9e8b7c753eb38f441ca707a8823",
+          "url": "https://github.com/mattpocock/skills/commit/abeeaf95660ba9e8b7c753eb38f441ca707a8823",
+          "date": "2026-11-19T13:34:58Z",
+          "subject": "Merge pull request #1455 from mattpocock/ci-frontmatter-check"
+        },
+        {
+          "sha": "37209058e45b7c60b36218b7392df0ebcceb247a",
+          "url": "https://github.com/mattpocock/skills/commit/37209058e45b7c60b36218b7392df0ebcceb247a",
+          "date": "2026-11-19T13:34:09Z",
+          "subject": "ci: check every SKILL.md's frontmatter parses with the installer's YAML parser"
+        },
+        {
+          "sha": "3a05171775a49076900759e0dd1b3ef8e2671323",
+          "url": "https://github.com/mattpocock/skills/commit/3a05171775a49076900759e0dd1b3ef8e2671323",
+          "date": "2026-11-19T13:33:29Z",
+          "subject": "Merge pull request #1453 from mattpocock/fix-software-factory-frontmatter"
+        },
+        {
+          "sha": "9201b96da4af2d663faa13bef984095bb69059b1",
+          "url": "https://github.com/mattpocock/skills/commit/9201b96da4af2d663faa13bef984095bb69059b1",
+          "date": "2026-11-19T13:32:57Z",
+          "subject": "fix(software-factory): quote description so strict YAML parsers accept it"
+        }
+      ]
+    },
+    {
+      "repo": "pbakaus/impeccable",
+      "readmeUrl": "https://github.com/pbakaus/impeccable/blob/b49177d32788f2dc585c42831d845dacf1ebed2c/README.md",
+      "readmeRef": "b49177d32788f2dc585c42831d845dacf1ebed2c",
+      "commits": [
+        {
+          "sha": "b49177d32788f2dc585c42831d845dacf1ebed2c",
+          "url": "https://github.com/pbakaus/impeccable/commit/b49177d32788f2dc585c42831d845dacf1ebed2c",
+          "date": "2026-11-18T21:58:19Z",
+          "subject": "Carry engine 0.1.27 checksums into every harness's skill copy"
+        },
+        {
+          "sha": "ab3617920fcdb5009163a725ba8ff59927a63474",
+          "url": "https://github.com/pbakaus/impeccable/commit/ab3617920fcdb5009163a725ba8ff59927a63474",
+          "date": "2026-11-18T21:04:03Z",
+          "subject": "Record engine 0.1.27 checksums and pin its platform packages"
+        },
+        {
+          "sha": "645925acd71b18558488c5b8d8f263404cb68db8",
+          "url": "https://github.com/pbakaus/impeccable/commit/645925acd71b18558488c5b8d8f263404cb68db8",
+          "date": "2026-11-18T01:09:33Z",
+          "subject": "Engine 0.1.27 with side-tab on rounded boxes only"
+        },
+        {
+          "sha": "109f9cf85d2497a1a906b7685a7c3a4afca7d3dc",
+          "url": "https://github.com/pbakaus/impeccable/commit/109f9cf85d2497a1a906b7685a7c3a4afca7d3dc",
+          "date": "2026-11-18T01:09:16Z",
+          "subject": "Merge remote-tracking branch 'origin/next' into release/cli-4.10.0"
+        }
+      ]
+    },
+    {
+      "repo": "meta/astryx",
+      "readmeUrl": "https://github.com/meta/astryx/blob/b3cb0beeadf8f51c1c1ff89d2a7b8fe81c66b8fc/README.md",
+      "readmeRef": "b3cb0beeadf8f51c1c1ff89d2a7b8fe81c66b8fc",
+      "commits": [
+        {
+          "sha": "b3cb0beeadf8f51c1c1ff89d2a7b8fe81c66b8fc",
+          "url": "https://github.com/meta/astryx/commit/b3cb0beeadf8f51c1c1ff89d2a7b8fe81c66b8fc",
+          "date": "2026-11-21T15:46:07Z",
+          "subject": "chore: land batch 145 (1 pull requests) (#13364)"
+        },
+        {
+          "sha": "47d48fd689093678781a4114873d29e11964bfb4",
+          "url": "https://github.com/meta/astryx/commit/47d48fd689093678781a4114873d29e11964bfb4",
+          "date": "2026-11-21T15:40:01Z",
+          "subject": "fix(NavigationStack): a platform-animated history back or forward plays no second animation (#12004)"
+        },
+        {
+          "sha": "dbc4d8d1c9a6130b1c326dfcff71e19b9ba97523",
+          "url": "https://github.com/meta/astryx/commit/dbc4d8d1c9a6130b1c326dfcff71e19b9ba97523",
+          "date": "2026-11-21T15:32:26Z",
+          "subject": "fix(Field): label, description and status text, the status tooltip included, keep their written order on right-to-left pages (#11220)"
+        },
+        {
+          "sha": "7916ed572d8d9700bcb72c848d8cf0b9247650f4",
+          "url": "https://github.com/meta/astryx/commit/7916ed572d8d9700bcb72c848d8cf0b9247650f4",
+          "date": "2026-11-21T15:16:11Z",
+          "subject": "chore: land batch fe-theme-4 (9 pull requests) (#13315)"
+        }
+      ]
+    },
+    {
+      "repo": "ZhuLinsen/daily_stock_analysis",
+      "readmeUrl": "https://github.com/ZhuLinsen/daily_stock_analysis/blob/bd7b7679948475861942a8e3840b54acd554029e/README.md",
+      "readmeRef": "bd7b7679948475861942a8e3840b54acd554029e",
+      "commits": [
+        {
+          "sha": "bd7b7679948475861942a8e3840b54acd554029e",
+          "url": "https://github.com/ZhuLinsen/daily_stock_analysis/commit/bd7b7679948475861942a8e3840b54acd554029e",
+          "date": "2026-11-21T15:19:43Z",
+          "subject": "fix: 修复多线程并发分析时 py_mini_racer 触发 V8 SIGTRAP 崩溃 (#2587)"
+        },
+        {
+          "sha": "a27923da12d40db8407035a2c95542addb6de89c",
+          "url": "https://github.com/ZhuLinsen/daily_stock_analysis/commit/a27923da12d40db8407035a2c95542addb6de89c",
+          "date": "2026-11-21T15:02:57Z",
+          "subject": "feat: add agents plugin marketplace for stock_analyzer skill (#2588)"
+        },
+        {
+          "sha": "2578fabe979bd33b5e3b5238096a5f68dee767b9",
+          "url": "https://github.com/ZhuLinsen/daily_stock_analysis/commit/2578fabe979bd33b5e3b5238096a5f68dee767b9",
+          "date": "2026-11-21T14:40:17Z",
+          "subject": "feat(bot): 企业微信智能机器人 Phase 1 — 长连接客户端基建 + 对话最小闭环 (#2491)"
+        },
+        {
+          "sha": "37100cbd845953602677c7cf7eb11dfe62d19a45",
+          "url": "https://github.com/ZhuLinsen/daily_stock_analysis/commit/37100cbd845953602677c7cf7eb11dfe62d19a45",
+          "date": "2026-11-21T13:16:16Z",
+          "subject": "fix: report why chat notifications were not delivered and clarify cooldown message (#2585)"
+        }
+      ]
+    }
+  ]
+}

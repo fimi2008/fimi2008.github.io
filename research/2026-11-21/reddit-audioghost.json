@@ -1,0 +1,13 @@
+{
+  "observedAt": "2026-11-22T01:04:49.710Z",
+  "title": "AudioGhost v1.2: remove any sound from audio or video by typing what it is (local, open source, built on Meta's SAM-Audio)",
+  "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xz6xl7/audioghost_v12_remove_any_sound_from_audio_or/",
+  "date": "2026-11-18T05:17:28.244000+0000",
+  "score": "453",
+  "comments": "29",
+  "authorClaims": [
+    "Text prompts extract or remove named sounds with SAM-Audio.",
+    "v1.2 supports separate tracks, export, timeline hints and persistent sessions.",
+    "Author reports hardware and quality tradeoffs after removing helper models."
+  ]
+}

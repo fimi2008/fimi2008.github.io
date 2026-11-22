@@ -1,0 +1,105 @@
+{
+  "clusters": [
+    {
+      "engagement_total": 8,
+      "sources": [
+        "reddit"
+      ],
+      "summary": "Hey everyone!\n\nI'm a 11th student exploring AI agents and planning to build a personal desktop assistant called **EDITH**\n\nI want it to do more than just chat. Some planned capabilities include:\n\nControlling my Windows laptop and opening applications.\n\nIntelligent file management and searching.\n\nVoice interaction and long-term memory.\n\nAutomating multi-step tasks.\n\nUnderstanding and adapting to my",
+      "title": "Title: Building a personal AI desktop assistant – Need suggestions from experienced developers!"
+    },
+    {
+      "engagement_total": 21,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "Show HN: AgentMall – Let your AI agent buy groceries",
+      "title": "Show HN: AgentMall – Let your AI agent buy groceries"
+    },
+    {
+      "engagement_total": 12,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "Show HN: A free interactive course on AI agent governance",
+      "title": "Show HN: A free interactive course on AI agent governance"
+    },
+    {
+      "engagement_total": 8,
+      "sources": [
+        "reddit"
+      ],
+      "summary": "From the agent side, what helped most was treating memory as a written record instead of a growing context. I keep a short current-state note (goal, decisions made, open questions) and a separate append-only log with a date and source for each entry. Summaries are lossy, so the log keeps the original facts and the summary points back to them. i would not pick one global ttl. tie the window to how fast the real world changes for that fact. task status (ticket open, draft sent, meeting time) expires in hours to a day and should re-read the source before use. preferences and names last months unless the user edits them. +1 to the state note plus log. one thing...",
+      "title": "How Do You Handle Memory in AI Agents Across Long-Running Tasks?"
+    }
+  ],
+  "freshness_verdicts": [],
+  "generated_at": "2026-11-22T01:01:42.173930Z",
+  "query": "AI agent engineering skills",
+  "results": [
+    {
+      "candidate_id": "https://reddit.com/r/AI_Agents/comments/1y1b5ga/title_building_a_personal_ai_desktop_assistant",
+      "cluster": 0,
+      "engagement": {
+        "num_comments": 19,
+        "score": 8
+      },
+      "published_at": "2026-11-20",
+      "relevance_score": 0.3663,
+      "source": "reddit",
+      "summary": "Hey everyone!\n\nI'm a 11th student exploring AI agents and planning to build a personal desktop assistant called **EDITH**\n\nI want it to do more than just chat. Some planned capabilities include:\n\nControlling my Windows laptop and opening applications.\n\nIntelligent file management and searching.\n\nVoice interaction and long-term memory.\n\nAutomating multi-step tasks.\n\nUnderstanding and adapting to my",
+      "title": "Title: Building a personal AI desktop assistant – Need suggestions from experienced developers!",
+      "url": "https://www.reddit.com/r/AI_Agents/comments/1y1b5ga/title_building_a_personal_ai_desktop_assistant/"
+    },
+    {
+      "candidate_id": "https://getagentmall.com",
+      "cluster": 1,
+      "engagement": {
+        "comments": 10,
+        "points": 21
+      },
+      "published_at": "2026-11-19",
+      "relevance_score": 0.0,
+      "source": "hackernews",
+      "summary": "Show HN: AgentMall – Let your AI agent buy groceries",
+      "title": "Show HN: AgentMall – Let your AI agent buy groceries",
+      "url": "https://getagentmall.com"
+    },
+    {
+      "candidate_id": "https://studio.sinapsdata.com.br",
+      "cluster": 2,
+      "engagement": {
+        "comments": 8,
+        "points": 12
+      },
+      "published_at": "2026-11-17",
+      "relevance_score": 0.0,
+      "source": "hackernews",
+      "summary": "Show HN: A free interactive course on AI agent governance",
+      "title": "Show HN: A free interactive course on AI agent governance",
+      "url": "https://studio.sinapsdata.com.br"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/AI_Agents/comments/1y16xhz/how_do_you_handle_memory_in_ai_agents_across",
+      "cluster": 3,
+      "engagement": {
+        "num_comments": 27,
+        "score": 8
+      },
+      "published_at": "2026-11-20",
+      "relevance_score": 0.0,
+      "source": "reddit",
+      "summary": "From the agent side, what helped most was treating memory as a written record instead of a growing context. I keep a short current-state note (goal, decisions made, open questions) and a separate append-only log with a date and source for each entry. Summaries are lossy, so the log keeps the original facts and the summary points back to them. i would not pick one global ttl. tie the window to how fast the real world changes for that fact. task status (ticket open, draft sent, meeting time) expires in hours to a day and should re-read the source before use. preferences and names last months unless the user edits them. +1 to the state note plus log. one thing...",
+      "title": "How Do You Handle Memory in AI Agents Across Long-Running Tasks?",
+      "url": "https://www.reddit.com/r/AI_Agents/comments/1y16xhz/how_do_you_handle_memory_in_ai_agents_across/"
+    }
+  ],
+  "schema_version": "1.4",
+  "source_status": {
+    "hackernews": "ok",
+    "reddit": "partial"
+  },
+  "usage": null,
+  "window_days": 7,
+  "archive_note": "Engine results are leads. Article claims use in-window official and original sources verified separately; source_status includes partial Reddit coverage."
+}

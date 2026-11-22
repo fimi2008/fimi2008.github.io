@@ -1,0 +1,132 @@
+{
+  "url": "https://www.skills.sh/",
+  "observedAt": "2026-11-22T01:00:27.718Z",
+  "metric": "all-time installs, rounded display",
+  "items": [
+    {
+      "url": "https://www.skills.sh/vercel-labs/skills/find-skills",
+      "text": "1\nfind-skills\n\nvercel-labs/skills\n\n4.5M"
+    },
+    {
+      "url": "https://www.skills.sh/heygen-com/hyperframes/hyperframes-cli",
+      "text": "2\nhyperframes-cli\n\nheygen-com/hyperframes\n\n1.7M"
+    },
+    {
+      "url": "https://www.skills.sh/vercel-labs/agent-browser/agent-browser",
+      "text": "3\nagent-browser\n\nvercel-labs/agent-browser\n\n1.6M"
+    },
+    {
+      "url": "https://www.skills.sh/heygen-com/hyperframes/hyperframes",
+      "text": "4\nhyperframes\n\nheygen-com/hyperframes\n\n1.6M"
+    },
+    {
+      "url": "https://www.skills.sh/mattpocock/skills/grill-me",
+      "text": "5\ngrill-me\n\nmattpocock/skills\n\n1.6M"
+    },
+    {
+      "url": "https://www.skills.sh/designed-by-ai/skills/design-mobile-apps",
+      "text": "6\ndesign-mobile-apps\n\ndesigned-by-ai/skills\n\n1.6M"
+    },
+    {
+      "url": "https://www.skills.sh/heygen-com/hyperframes/media-use",
+      "text": "7\nmedia-use\n\nheygen-com/hyperframes\n\n1.5M"
+    },
+    {
+      "url": "https://www.skills.sh/flowkit-labs/skills/reddit-automation",
+      "text": "8\nreddit-automation\n\nflowkit-labs/skills\n\n1.5M"
+    },
+    {
+      "url": "https://www.skills.sh/heygen-com/hyperframes/hyperframes-registry",
+      "text": "9\nhyperframes-registry\n\nheygen-com/hyperframes\n\n1.4M"
+    },
+    {
+      "url": "https://www.skills.sh/mattpocock/skills/grill-with-docs",
+      "text": "10\ngrill-with-docs\n\nmattpocock/skills\n\n1.4M"
+    },
+    {
+      "url": "https://www.skills.sh/anthropics/skills/frontend-design",
+      "text": "15\nfrontend-design\n\nanthropics/skills\n\n1.2M"
+    },
+    {
+      "url": "https://www.skills.sh/mattpocock/skills/grilling",
+      "text": "16\ngrilling\n\nmattpocock/skills\n\n1.1M"
+    },
+    {
+      "url": "https://www.skills.sh/mattpocock/skills/prototype",
+      "text": "17\nprototype\n\nmattpocock/skills\n\n1.1M"
+    },
+    {
+      "url": "https://www.skills.sh/mattpocock/skills/triage",
+      "text": "18\ntriage\n\nmattpocock/skills\n\n1.1M"
+    },
+    {
+      "url": "https://www.skills.sh/site/uizze.sh/ui-taste",
+      "text": "19\nui-taste\n\nuizze.sh\n\n1.1M"
+    },
+    {
+      "url": "https://www.skills.sh/101-skills/superpowers/ai-video-generation",
+      "text": "20\nai-video-generation\n\n101-skills/superpowers\n\n1.1M"
+    },
+    {
+      "url": "https://www.skills.sh/mattpocock/skills/domain-modeling",
+      "text": "24\ndomain-modeling\n\nmattpocock/skills\n\n1.0M"
+    },
+    {
+      "url": "https://www.skills.sh/heygen-com/hyperframes/hyperframes-animation",
+      "text": "25\nhyperframes-animation\n\nheygen-com/hyperframes\n\n1.0M"
+    },
+    {
+      "url": "https://www.skills.sh/mattpocock/skills/codebase-design",
+      "text": "26\ncodebase-design\n\nmattpocock/skills\n\n982.3K"
+    },
+    {
+      "url": "https://www.skills.sh/mattpocock/skills/teach",
+      "text": "27\nteach\n\nmattpocock/skills\n\n976.3K"
+    },
+    {
+      "url": "https://www.skills.sh/magentosh/superpowers/ai-image-generation",
+      "text": "28\nai-image-generation\n\nmagentosh/superpowers\n\n962.0K"
+    },
+    {
+      "url": "https://www.skills.sh/mattpocock/skills/diagnosing-bugs",
+      "text": "32\ndiagnosing-bugs\n\nmattpocock/skills\n\n958.9K"
+    },
+    {
+      "url": "https://www.skills.sh/heygen-com/hyperframes/hyperframes-core",
+      "text": "33\nhyperframes-core\n\nheygen-com/hyperframes\n\n931.3K"
+    },
+    {
+      "url": "https://www.skills.sh/site/open.feishu.cn/lark-doc",
+      "text": "34\nlark-doc\n\nopen.feishu.cn\n\n930.4K"
+    },
+    {
+      "url": "https://www.skills.sh/vercel-labs/agent-skills/vercel-react-best-practices",
+      "text": "55\nvercel-react-best-practices\n\nvercel-labs/agent-skills\n\n921.6K"
+    },
+    {
+      "url": "https://www.skills.sh/site/open.feishu.cn/lark-vc",
+      "text": "56\nlark-vc\n\nopen.feishu.cn\n\n921.5K"
+    },
+    {
+      "url": "https://www.skills.sh/mattpocock/skills/code-review",
+      "text": "57\ncode-review\n\nmattpocock/skills\n\n920.5K"
+    },
+    {
+      "url": "https://www.skills.sh/heygen-com/hyperframes/hyperframes-creative",
+      "text": "58\nhyperframes-creative\n\nheygen-com/hyperframes\n\n917.4K"
+    },
+    {
+      "url": "https://www.skills.sh/site/open.feishu.cn/lark-okr",
+      "text": "59\nlark-okr\n\nopen.feishu.cn\n\n906.6K"
+    },
+    {
+      "url": "https://www.skills.sh/site/open.feishu.cn/lark-markdown",
+      "text": "60\nlark-markdown\n\nopen.feishu.cn\n\n892.6K"
+    },
+    {
+      "url": "https://www.skills.sh/skills-shell/superpowers/ai-image-generation",
+      "text": "61\nai-image-generation\n\nskills-shell/superpowers\n\n892.4K"
+    }
+  ],
+  "limitation": "Observed on 2026-11-22 Asia/Shanghai, after issue end. Previous 2026-11-14 snapshot is rounded and 8 days apart. No seven-day net increase is calculated."
+}

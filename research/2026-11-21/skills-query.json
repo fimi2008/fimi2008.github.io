@@ -1,0 +1,29 @@
+{
+  "intent": "breaking_news",
+  "freshness_mode": "strict_recent",
+  "cluster_mode": "story",
+  "subqueries": [
+    {
+      "label": "skills workflows",
+      "search_query": "AI agent skills",
+      "ranking_query": "Which open-source agent skills show concrete engineering workflows or new capabilities?",
+      "sources": [
+        "reddit",
+        "hackernews",
+        "github"
+      ],
+      "weight": 1
+    },
+    {
+      "label": "verification",
+      "search_query": "skill evaluation",
+      "ranking_query": "What evaluations compare agent skills to baseline workflows and show failure cases?",
+      "sources": [
+        "reddit",
+        "hackernews",
+        "github"
+      ],
+      "weight": 0.8
+    }
+  ]
+}

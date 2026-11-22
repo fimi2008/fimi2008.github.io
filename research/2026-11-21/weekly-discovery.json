@@ -1,0 +1,281 @@
+{
+  "clusters": [
+    {
+      "engagement_total": 202,
+      "sources": [
+        "reddit"
+      ],
+      "summary": "All this time i was waiting for a \"BUT WAIT! THERE'S MORE!\" sorry for that, we distilled and pruned OmniVoice which forced us to use CC-BY-NC. We are continuously working on a model with a completely open license, and its coming soon! Fun trailer and reasonable quality for speed. Still, when hearing “Weights are open too” I must disagree. Weights are available. They are not open with a non commercial license.",
+      "title": "Reverb-TTS: open-source zero-shot voice cloning running in the browser on WebGPU, 22x realtime on M4 Pro (MLX)"
+    },
+    {
+      "engagement_total": 6,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "Mozilla Developer Spotlight: WebBrain – Open-source local-first AI browser agent",
+      "title": "Mozilla Developer Spotlight: WebBrain – Open-source local-first AI browser agent"
+    },
+    {
+      "engagement_total": 7,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "David Friedberg: Restricting Open Source AI Is a Path to Tyranny",
+      "title": "David Friedberg: Restricting Open Source AI Is a Path to Tyranny"
+    },
+    {
+      "engagement_total": 4,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "Nvidia says its open source AI strategy remains intact after Jensen Huang's exit",
+      "title": "Nvidia says its open source AI strategy remains intact after Jensen Huang's exit"
+    },
+    {
+      "engagement_total": 5,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "Show HN: Dez – plaintext open source AI multimedia studio",
+      "title": "Show HN: Dez – plaintext open source AI multimedia studio"
+    },
+    {
+      "engagement_total": 3,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "Show HN: Intrusive.ai – open-source AI attack simulation",
+      "title": "Show HN: Intrusive.ai – open-source AI attack simulation"
+    },
+    {
+      "engagement_total": 3,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "Show HN: RedCat an open-source AI agent for your desktop",
+      "title": "Show HN: RedCat an open-source AI agent for your desktop"
+    },
+    {
+      "engagement_total": 13,
+      "sources": [
+        "reddit"
+      ],
+      "summary": "For sure. It's not very much different from an artist who works at their high end art/sculpture studio, where the artist directs a team of technical experts to perform the detailed work on the project, without ever actually touching it themselves. It can reduce the friction of artistic vision to product. I think AI makes creativity more accessible rather than replacing it. It can help people explore ideas faster but the originality still depende on human imagination and how we use the tools. tightening that feedback loop between vision and outcome is huge, you can iterate on weird ideas way faster when the friction is gone.",
+      "title": "Can AI Help People Become More Creative?"
+    },
+    {
+      "engagement_total": 8,
+      "sources": [
+        "reddit"
+      ],
+      "summary": "One challenge with building AI agents is maintaining useful context across multiple steps and longer tasks.\n\n\n\nAn agent might successfully complete several actions, but as the conversation grows, it can lose important details, repeat previous steps, or make decisions based on outdated information.\n\n\n\nThere are different approaches to this problem, including conversation summaries, external memory",
+      "title": "How Do You Handle Memory in AI Agents Across Long-Running Tasks?"
+    },
+    {
+      "engagement_total": 8,
+      "sources": [
+        "reddit"
+      ],
+      "summary": "i tried building something like that with local models and it got slow fast. switching to a lightweight agent framework with local execution made it feel instant again. how do you plan to handle real-time responses without lag? I'd put a lot of effort into memory, honestly. I split it into types: working (the context window, what it's holding right now), episodic (past events with a date), semantic (facts like \"user is a backend engineer\"), and procedural (skills, workflows, tool routines). and I think keep that memory yours, not the model provider's. The best way to learn is to form answers to each of your questions yourself and then get feedback from someone more experienced. What have you found so...",
+      "title": "Title: Building a personal AI desktop assistant – Need suggestions from experienced developers!"
+    },
+    {
+      "engagement_total": 25,
+      "sources": [
+        "reddit"
+      ],
+      "summary": "AI agents can perform complex tasks by combining multiple tools, executing functions, and making decisions along the way.\n\n\n\nBut reliability becomes a challenge when an agent depends on several tools to complete one task. A single incorrect function call or unexpected response can affect the entire workflow.\n\n\n\nI'm curious how developers approach this problem.\n\n\n\nWhat techniques have you found mos",
+      "title": "How Do You Make AI Agents Reliable When They Use Multiple Tools?"
+    },
+    {
+      "engagement_total": 9,
+      "sources": [
+        "reddit"
+      ],
+      "summary": "I've been looking for an AI assistant that can help me stay organized without having to manage everything manually.\n\nMostly need help with emails, calendar, reminders, notes, and keeping track of task.\n\nI've come across tools like Motion, Reclaim, and Lindy, but I'm having trouble figuring out whicj=h ones are actually useful long term.\n\nIdeally, I'd want something that can:\n\nManage scheduling and",
+      "title": "What AI personal assistant are you guys actually using in 2026?"
+    }
+  ],
+  "freshness_verdicts": [],
+  "generated_at": "2026-11-22T01:01:42.664613Z",
+  "query": "open-source AI tools",
+  "results": [
+    {
+      "candidate_id": "https://reddit.com/r/LocalLLaMA/comments/1y13mj0/reverbtts_opensource_zeroshot_voice_cloning",
+      "cluster": 0,
+      "engagement": {
+        "num_comments": 29,
+        "score": 202
+      },
+      "published_at": "2026-11-20",
+      "relevance_score": 0.4068,
+      "source": "reddit",
+      "summary": "All this time i was waiting for a \"BUT WAIT! THERE'S MORE!\" sorry for that, we distilled and pruned OmniVoice which forced us to use CC-BY-NC. We are continuously working on a model with a completely open license, and its coming soon! Fun trailer and reasonable quality for speed. Still, when hearing “Weights are open too” I must disagree. Weights are available. They are not open with a non commercial license.",
+      "title": "Reverb-TTS: open-source zero-shot voice cloning running in the browser on WebGPU, 22x realtime on M4 Pro (MLX)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1y13mj0/reverbtts_opensource_zeroshot_voice_cloning/"
+    },
+    {
+      "candidate_id": "https://blog.mozilla.org/addons/2026/11/20/developer-spotlight-webbrain",
+      "cluster": 1,
+      "engagement": {
+        "comments": 3,
+        "points": 6
+      },
+      "published_at": "2026-11-21",
+      "relevance_score": 0.3763,
+      "source": "hackernews",
+      "summary": "Mozilla Developer Spotlight: WebBrain – Open-source local-first AI browser agent",
+      "title": "Mozilla Developer Spotlight: WebBrain – Open-source local-first AI browser agent",
+      "url": "https://blog.mozilla.org/addons/2026/11/20/developer-spotlight-webbrain/"
+    },
+    {
+      "candidate_id": "https://twitter.com/theallinpod/status/2123994998156722681",
+      "cluster": 2,
+      "engagement": {
+        "comments": 0,
+        "points": 7
+      },
+      "published_at": "2026-11-21",
+      "relevance_score": 0.3757,
+      "source": "hackernews",
+      "summary": "David Friedberg: Restricting Open Source AI Is a Path to Tyranny",
+      "title": "David Friedberg: Restricting Open Source AI Is a Path to Tyranny",
+      "url": "https://twitter.com/theallinpod/status/2123994998156722681"
+    },
+    {
+      "candidate_id": "https://techcrunch.com/2026/11/17/nvidia-says-its-open-source-ai-strategy-remains-intact-after-jensen-huangs-exit",
+      "cluster": 3,
+      "engagement": {
+        "comments": 3,
+        "points": 4
+      },
+      "published_at": "2026-11-18",
+      "relevance_score": 0.328,
+      "source": "hackernews",
+      "summary": "Nvidia says its open source AI strategy remains intact after Jensen Huang's exit",
+      "title": "Nvidia says its open source AI strategy remains intact after Jensen Huang's exit",
+      "url": "https://techcrunch.com/2026/11/17/nvidia-says-its-open-source-ai-strategy-remains-intact-after-jensen-huangs-exit/"
+    },
+    {
+      "candidate_id": "https://github.com/taoeffect/dez",
+      "cluster": 4,
+      "engagement": {
+        "comments": 0,
+        "points": 5
+      },
+      "published_at": "2026-11-18",
+      "relevance_score": 0.3246,
+      "source": "hackernews",
+      "summary": "Show HN: Dez – plaintext open source AI multimedia studio",
+      "title": "Show HN: Dez – plaintext open source AI multimedia studio",
+      "url": "https://github.com/taoeffect/dez"
+    },
+    {
+      "candidate_id": "https://intrusive.ai",
+      "cluster": 5,
+      "engagement": {
+        "comments": 0,
+        "points": 3
+      },
+      "published_at": "2026-11-18",
+      "relevance_score": 0.3232,
+      "source": "hackernews",
+      "summary": "Show HN: Intrusive.ai – open-source AI attack simulation",
+      "title": "Show HN: Intrusive.ai – open-source AI attack simulation",
+      "url": "https://intrusive.ai/"
+    },
+    {
+      "candidate_id": "https://github.com/manamaliahmad/redcat",
+      "cluster": 6,
+      "engagement": {
+        "comments": 0,
+        "points": 3
+      },
+      "published_at": "2026-11-18",
+      "relevance_score": 0.323,
+      "source": "hackernews",
+      "summary": "Show HN: RedCat an open-source AI agent for your desktop",
+      "title": "Show HN: RedCat an open-source AI agent for your desktop",
+      "url": "https://github.com/manamaliahmad/redcat"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/AI_Agents/comments/1y16ilm/can_ai_help_people_become_more_creative",
+      "cluster": 7,
+      "engagement": {
+        "num_comments": 27,
+        "score": 13
+      },
+      "published_at": "2026-11-20",
+      "relevance_score": 0.2879,
+      "source": "reddit",
+      "summary": "For sure. It's not very much different from an artist who works at their high end art/sculpture studio, where the artist directs a team of technical experts to perform the detailed work on the project, without ever actually touching it themselves. It can reduce the friction of artistic vision to product. I think AI makes creativity more accessible rather than replacing it. It can help people explore ideas faster but the originality still depende on human imagination and how we use the tools. tightening that feedback loop between vision and outcome is huge, you can iterate on weird ideas way faster when the friction is gone.",
+      "title": "Can AI Help People Become More Creative?",
+      "url": "https://www.reddit.com/r/AI_Agents/comments/1y16ilm/can_ai_help_people_become_more_creative/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/AI_Agents/comments/1y16xhz/how_do_you_handle_memory_in_ai_agents_across",
+      "cluster": 8,
+      "engagement": {
+        "num_comments": 27,
+        "score": 8
+      },
+      "published_at": "2026-11-20",
+      "relevance_score": 0.28,
+      "source": "reddit",
+      "summary": "One challenge with building AI agents is maintaining useful context across multiple steps and longer tasks.\n\n\n\nAn agent might successfully complete several actions, but as the conversation grows, it can lose important details, repeat previous steps, or make decisions based on outdated information.\n\n\n\nThere are different approaches to this problem, including conversation summaries, external memory",
+      "title": "How Do You Handle Memory in AI Agents Across Long-Running Tasks?",
+      "url": "https://www.reddit.com/r/AI_Agents/comments/1y16xhz/how_do_you_handle_memory_in_ai_agents_across/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/AI_Agents/comments/1y1b5ga/title_building_a_personal_ai_desktop_assistant",
+      "cluster": 9,
+      "engagement": {
+        "num_comments": 19,
+        "score": 8
+      },
+      "published_at": "2026-11-20",
+      "relevance_score": 0.019,
+      "source": "reddit",
+      "summary": "i tried building something like that with local models and it got slow fast. switching to a lightweight agent framework with local execution made it feel instant again. how do you plan to handle real-time responses without lag? I'd put a lot of effort into memory, honestly. I split it into types: working (the context window, what it's holding right now), episodic (past events with a date), semantic (facts like \"user is a backend engineer\"), and procedural (skills, workflows, tool routines). and I think keep that memory yours, not the model provider's. The best way to learn is to form answers to each of your questions yourself and then get feedback from someone more experienced. What have you found so...",
+      "title": "Title: Building a personal AI desktop assistant – Need suggestions from experienced developers!",
+      "url": "https://www.reddit.com/r/AI_Agents/comments/1y1b5ga/title_building_a_personal_ai_desktop_assistant/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/AI_Agents/comments/1y136s0/how_do_you_make_ai_agents_reliable_when_they_use",
+      "cluster": 10,
+      "engagement": {
+        "num_comments": 37,
+        "score": 25
+      },
+      "published_at": "2026-11-20",
+      "relevance_score": 0.0,
+      "source": "reddit",
+      "summary": "AI agents can perform complex tasks by combining multiple tools, executing functions, and making decisions along the way.\n\n\n\nBut reliability becomes a challenge when an agent depends on several tools to complete one task. A single incorrect function call or unexpected response can affect the entire workflow.\n\n\n\nI'm curious how developers approach this problem.\n\n\n\nWhat techniques have you found mos",
+      "title": "How Do You Make AI Agents Reliable When They Use Multiple Tools?",
+      "url": "https://www.reddit.com/r/AI_Agents/comments/1y136s0/how_do_you_make_ai_agents_reliable_when_they_use/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/AI_Agents/comments/1y1e5wh/what_ai_personal_assistant_are_you_guys_actually",
+      "cluster": 11,
+      "engagement": {
+        "num_comments": 30,
+        "score": 9
+      },
+      "published_at": "2026-11-20",
+      "relevance_score": 0.0,
+      "source": "reddit",
+      "summary": "I've been looking for an AI assistant that can help me stay organized without having to manage everything manually.\n\nMostly need help with emails, calendar, reminders, notes, and keeping track of task.\n\nI've come across tools like Motion, Reclaim, and Lindy, but I'm having trouble figuring out whicj=h ones are actually useful long term.\n\nIdeally, I'd want something that can:\n\nManage scheduling and",
+      "title": "What AI personal assistant are you guys actually using in 2026?",
+      "url": "https://www.reddit.com/r/AI_Agents/comments/1y1e5wh/what_ai_personal_assistant_are_you_guys_actually/"
+    }
+  ],
+  "schema_version": "1.4",
+  "source_status": {
+    "hackernews": "ok",
+    "reddit": "partial"
+  },
+  "usage": null,
+  "window_days": 7,
+  "archive_note": "Engine results are leads. Article claims use in-window official and original sources verified separately; source_status includes partial Reddit coverage."
+}

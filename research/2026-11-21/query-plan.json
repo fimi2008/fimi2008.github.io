@@ -1,0 +1,58 @@
+{
+  "issue": "2026-11-21",
+  "period": {
+    "start": "2026-11-15",
+    "end": "2026-11-21",
+    "timezone": "Asia/Shanghai"
+  },
+  "asOfUtcCutoff": "2026-11-21T16:00:00Z",
+  "collectionBeganAt": "2026-11-22T00:58:56.709Z",
+  "last30days": {
+    "source": "mvanhorn/last30days-skill",
+    "ref": "f918b496b021fbc4db270ff3442fabf373a4a5f4",
+    "entry": "skills/last30days/scripts/last30days.py",
+    "runtime": "Python 3.13",
+    "preflight": "ready",
+    "browserCookies": "off",
+    "flags": [
+      "--days",
+      "7",
+      "--as-of",
+      "2026-11-21",
+      "--no-browser-cookies",
+      "--search",
+      "reddit,hackernews,github",
+      "--emit=json",
+      "--save-dir=",
+      "--quick",
+      "--plan",
+      "-"
+    ],
+    "scope": "Two topic-research runs with explicit plans. No --discover mode, because dated --as-of is required. Engine HN/Reddit findings supplemented with browser and official sources."
+  },
+  "independentPlatformQueries": {
+    "x": [
+      "open source OR just released OR I built + AI/agent + github.com",
+      "open source agent"
+    ],
+    "douyin": [
+      "AI 开源 项目 最新",
+      "GitHub 一周 热门 AI"
+    ],
+    "reddit": [
+      "r/LocalLLaMA top week",
+      "r/LocalLLaMA search github top week"
+    ]
+  },
+  "sourceOutcomes": {
+    "hackernews": "engine ok",
+    "reddit": "engine partial; public browser and indexed original posts supplemented",
+    "x": "public browser search worked, some newest results fell outside the Beijing cutoff and were excluded; only one low-coverage in-window original used",
+    "douyin": "initial navigation returned a blank state, recovered with a different broad query; original video date verified",
+    "skillsSh": "rounded cumulative data observed after issue end; no 7-day install difference calculated",
+    "github": "authenticated gh API verified README at commits no later than cutoff and recent commit timestamps",
+    "rankRadar": "both requested snapshots retrieved; approximate prior-window entries prevented exact comparison",
+    "githubTrend": "same-source alternative used for both weekly columns; archived rolling windows, not exact full calendar-day totals"
+  },
+  "privacy": "Only public sources, excerpts, source statuses and comparison records archived. No browser session data, credentials or debug logs."
+}

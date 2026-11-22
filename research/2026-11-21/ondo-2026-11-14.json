@@ -1,0 +1,148 @@
+{
+  "url": "https://trend.ondo.sh/github/2026-11-14/en.html",
+  "observedAt": "2026-11-22T01:04:37.149894+00:00",
+  "asOf": "2026-11-14",
+  "metric": "reported 7-day star gains",
+  "items": [
+    {
+      "repo": "morluto/rea",
+      "weeklyGain": 19007,
+      "stars": 459380
+    },
+    {
+      "repo": "meta/astryx",
+      "weeklyGain": 13635,
+      "stars": 27939
+    },
+    {
+      "repo": "sherlock-project/sherlock",
+      "weeklyGain": 11609,
+      "stars": 111669
+    },
+    {
+      "repo": "pingdotgg/t3code",
+      "weeklyGain": 9491,
+      "stars": 60381
+    },
+    {
+      "repo": "cloudflare/security-audit-skill",
+      "weeklyGain": 7140,
+      "stars": 72443
+    },
+    {
+      "repo": "debpalash/VoiceStudio",
+      "weeklyGain": 6886,
+      "stars": 110523
+    },
+    {
+      "repo": "mattpocock/skills",
+      "weeklyGain": 6886,
+      "stars": 324340
+    },
+    {
+      "repo": "stablyai/orca",
+      "weeklyGain": 6436,
+      "stars": 124877
+    },
+    {
+      "repo": "milind-soni/OpenMausBot",
+      "weeklyGain": 5956,
+      "stars": 22663
+    },
+    {
+      "repo": "anthropics/skills",
+      "weeklyGain": 5936,
+      "stars": 194499
+    },
+    {
+      "repo": "Nutlope/hallmark",
+      "weeklyGain": 4778,
+      "stars": null
+    },
+    {
+      "repo": "pbakaus/impeccable",
+      "weeklyGain": 4740,
+      "stars": null
+    },
+    {
+      "repo": "DietrichGebert/ponytail",
+      "weeklyGain": 4501,
+      "stars": null
+    },
+    {
+      "repo": "D4Vinci/Scrapling",
+      "weeklyGain": 3636,
+      "stars": null
+    },
+    {
+      "repo": "dream-num/univer",
+      "weeklyGain": 1445,
+      "stars": null
+    },
+    {
+      "repo": "longbridge/gpui-kit",
+      "weeklyGain": 872,
+      "stars": null
+    },
+    {
+      "repo": "boykopovar/AnyPS5",
+      "weeklyGain": 1921,
+      "stars": null
+    },
+    {
+      "repo": "Usagi-org/ai-goofish-monitor",
+      "weeklyGain": 1616,
+      "stars": null
+    },
+    {
+      "repo": "Renhuai123/ziwei-doushu",
+      "weeklyGain": 1477,
+      "stars": null
+    },
+    {
+      "repo": "ZhuLinsen/daily_stock_analysis",
+      "weeklyGain": 4500,
+      "stars": null
+    },
+    {
+      "repo": "paperclipai/paperclip",
+      "weeklyGain": 1935,
+      "stars": null
+    },
+    {
+      "repo": "CopilotKit/OpenBot",
+      "weeklyGain": 1859,
+      "stars": null
+    },
+    {
+      "repo": "Alishahryar1/free-claude-code",
+      "weeklyGain": 3018,
+      "stars": null
+    },
+    {
+      "repo": "alibaba/open-code-review",
+      "weeklyGain": 1648,
+      "stars": null
+    },
+    {
+      "repo": "anomalyco/opencode",
+      "weeklyGain": 1596,
+      "stars": null
+    },
+    {
+      "repo": "HKUDS/DeepTutor",
+      "weeklyGain": 2879,
+      "stars": null
+    },
+    {
+      "repo": "public-apis/public-apis",
+      "weeklyGain": 2026,
+      "stars": null
+    },
+    {
+      "repo": "rohitg00/ai-engineering-from-scratch",
+      "weeklyGain": 1504,
+      "stars": null
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "observedAt": "2026-11-22T01:00:27.718Z",
+  "sources": [
+    {
+      "platform": "skills.sh",
+      "status": "fulfilled",
+      "value": {
+        "title": "The Agent Skills Directory",
+        "links": [
+          {
+            "url": "https://www.skills.sh/vercel-labs/skills/find-skills",
+            "text": "1\nfind-skills\n\nvercel-labs/skills\n\n4.5M"
+          },
+          {
+            "url": "https://www.skills.sh/heygen-com/hyperframes/hyperframes-cli",
+            "text": "2\nhyperframes-cli\n\nheygen-com/hyperframes\n\n1.7M"
+          },
+          {
+            "url": "https://www.skills.sh/vercel-labs/agent-browser/agent-browser",
+            "text": "3\nagent-browser\n\nvercel-labs/agent-browser\n\n1.6M"
+          },
+          {
+            "url": "https://www.skills.sh/heygen-com/hyperframes/hyperframes",
+            "text": "4\nhyperframes\n\nheygen-com/hyperframes\n\n1.6M"
+          },
+          {
+            "url": "https://www.skills.sh/mattpocock/skills/grill-me",
+            "text": "5\ngrill-me\n\nmattpocock/skills\n\n1.6M"
+          },
+          {
+            "url": "https://www.skills.sh/designed-by-ai/skills/design-mobile-apps",
+            "text": "6\ndesign-mobile-apps\n\ndesigned-by-ai/skills\n\n1.6M"
+          },
+          {
+            "url": "https://www.skills.sh/heygen-com/hyperframes/media-use",
+            "text": "7\nmedia-use\n\nheygen-com/hyperframes\n\n1.5M"
+          },
+          {
+            "url": "https://www.skills.sh/flowkit-labs/skills/reddit-automation",
+            "text": "8\nreddit-automation\n\nflowkit-labs/skills\n\n1.5M"
+          },
+          {
+            "url": "https://www.skills.sh/heygen-com/hyperframes/hyperframes-registry",
+            "text": "9\nhyperframes-registry\n\nheygen-com/hyperframes\n\n1.4M"
+          },
+          {
+            "url": "https://www.skills.sh/mattpocock/skills/grill-with-docs",
+            "text": "10\ngrill-with-docs\n\nmattpocock/skills\n\n1.4M"
+          },
+          {
+            "url": "https://www.skills.sh/anthropics/skills/frontend-design",
+            "text": "15\nfrontend-design\n\nanthropics/skills\n\n1.2M"
+          },
+          {
+            "url": "https://www.skills.sh/mattpocock/skills/grilling",
+            "text": "16\ngrilling\n\nmattpocock/skills\n\n1.1M"
+          },
+          {
+            "url": "https://www.skills.sh/mattpocock/skills/prototype",
+            "text": "17\nprototype\n\nmattpocock/skills\n\n1.1M"
+          },
+          {
+            "url": "https://www.skills.sh/mattpocock/skills/triage",
+            "text": "18\ntriage\n\nmattpocock/skills\n\n1.1M"
+          },
+          {
+            "url": "https://www.skills.sh/site/uizze.sh/ui-taste",
+            "text": "19\nui-taste\n\nuizze.sh\n\n1.1M"
+          },
+          {
+            "url": "https://www.skills.sh/101-skills/superpowers/ai-video-generation",
+            "text": "20\nai-video-generation\n\n101-skills/superpowers\n\n1.1M"
+          },
+          {
+            "url": "https://www.skills.sh/mattpocock/skills/domain-modeling",
+            "text": "24\ndomain-modeling\n\nmattpocock/skills\n\n1.0M"
+          },
+          {
+            "url": "https://www.skills.sh/heygen-com/hyperframes/hyperframes-animation",
+            "text": "25\nhyperframes-animation\n\nheygen-com/hyperframes\n\n1.0M"
+          },
+          {
+            "url": "https://www.skills.sh/mattpocock/skills/codebase-design",
+            "text": "26\ncodebase-design\n\nmattpocock/skills\n\n982.3K"
+          },
+          {
+            "url": "https://www.skills.sh/mattpocock/skills/teach",
+            "text": "27\nteach\n\nmattpocock/skills\n\n976.3K"
+          },
+          {
+            "url": "https://www.skills.sh/magentosh/superpowers/ai-image-generation",
+            "text": "28\nai-image-generation\n\nmagentosh/superpowers\n\n962.0K"
+          },
+          {
+            "url": "https://www.skills.sh/mattpocock/skills/diagnosing-bugs",
+            "text": "32\ndiagnosing-bugs\n\nmattpocock/skills\n\n958.9K"
+          },
+          {
+            "url": "https://www.skills.sh/heygen-com/hyperframes/hyperframes-core",
+            "text": "33\nhyperframes-core\n\nheygen-com/hyperframes\n\n931.3K"
+          },
+          {
+            "url": "https://www.skills.sh/site/open.feishu.cn/lark-doc",
+            "text": "34\nlark-doc\n\nopen.feishu.cn\n\n930.4K"
+          },
+          {
+            "url": "https://www.skills.sh/vercel-labs/agent-skills/vercel-react-best-practices",
+            "text": "55\nvercel-react-best-practices\n\nvercel-labs/agent-skills\n\n921.6K"
+          },
+          {
+            "url": "https://www.skills.sh/site/open.feishu.cn/lark-vc",
+            "text": "56\nlark-vc\n\nopen.feishu.cn\n\n921.5K"
+          },
+          {
+            "url": "https://www.skills.sh/mattpocock/skills/code-review",
+            "text": "57\ncode-review\n\nmattpocock/skills\n\n920.5K"
+          },
+          {
+            "url": "https://www.skills.sh/heygen-com/hyperframes/hyperframes-creative",
+            "text": "58\nhyperframes-creative\n\nheygen-com/hyperframes\n\n917.4K"
+          },
+          {
+            "url": "https://www.skills.sh/site/open.feishu.cn/lark-okr",
+            "text": "59\nlark-okr\n\nopen.feishu.cn\n\n906.6K"
+          },
+          {
+            "url": "https://www.skills.sh/site/open.feishu.cn/lark-markdown",
+            "text": "60\nlark-markdown\n\nopen.feishu.cn\n\n892.6K"
+          },
+          {
+            "url": "https://www.skills.sh/skills-shell/superpowers/ai-image-generation",
+            "text": "61\nai-image-generation\n\nskills-shell/superpowers\n\n892.4K"
+          }
+        ]
+      }
+    },
+    {
+      "platform": "x",
+      "status": "fulfilled",
+      "value": {
+        "posts": [
+          {
+            "url": "https://x.com/pinguxx/status/2124305496647864787",
+            "date": "2026-11-22T00:54:32.000Z",
+            "text": "Elementum: An open-source, AI-native UI platform with a built-in MCP server, semantic agent runtime, and 109 zero-dependency Web Components.\nRuntime deps: 0\nWorks in: Vanilla HTML, React 19, Vue 3, Next.js\nHere's what's inside 🧵👇\nElementum：一个开源 、AI 原生的 UI 平台，内置了 MCP 服务器、语义代理运行时以及 109 个零依赖的 Web 组件。\n运行时间差异：0\n支持环境：Vanilla HTML、React 19、Vue 3、Next.js\n里面是这些 🧵👇"
+          },
+          {
+            "url": "https://x.com/Thigas_Bsb/status/2124296369657573389",
+            "date": "2026-11-22T00:18:16.000Z",
+            "text": "I stitched two different AIs into one with a learned \"change of basis\" between their hidden spaces.\n\nDifferent families and tokenizers: perplexity 12,168 → 42.5. Open source, try it yourself.\n\n#LocalLLaMA #LLM #OpenSource\n我把两个不同的 AI 缝合成一个，它们隐藏空间之间有学习到的“基础变化”。\n\n不同族和分词器：困惑度为 12,168→42.5。 开源吧，自己试试。\n\n #LocalLLaMA   #LLM   #OpenSource "
+          },
+          {
+            "url": "https://x.com/AKhomssi/status/2124290129581813870",
+            "date": "2026-11-21T23:53:28.000Z",
+            "text": "Open-sourced my full SEO and AI-search stack for Claude Code and Cursor (30 skills + 4 live MCP servers I actually use every day)\n\n1. 30 open-source SEO skills (technical audits, programmatic SEO, BOFU pages, directory submissions, Ahrefs/GSC workflows):\n\nhttps://\ngithub.com/Illyism/seo-sk…"
+          },
+          {
+            "url": "https://x.com/mrvirtual_0x01/status/2124289055005307250",
+            "date": "2026-11-21T23:49:12.000Z",
+            "text": "I built EdgeBook 📈 a free desktop trading journal for Windows.\n\nLog trades with chart screenshots, see win rates by session,symbol & direction, and get feedback from an AI coach.\n\nFree & open source 👇\n\nhttps://\ngithub.com/YasirCelikStac\nk/edgebook\n…\nTo download👇\n\nhttps://\ngithub.com/YasirCelikStac\nk/edgebook/releases\n…"
+          },
+          {
+            "url": "https://x.com/ChrisShort/status/2124285402097828136",
+            "date": "2026-11-21T23:34:41.000Z",
+            "text": "openvinotoolkit/openvino: OpenVINO™ is an open source toolkit for optimizing and deploying AI inference #devopsish \nhttps://\ngithub.com/openvinotoolki\nt/openvino?utm_source=tldrdevops\n…"
+          }
+        ]
+      }
+    },
+    {
+      "platform": "douyin",
+      "status": "rejected",
+      "reason": {}
+    },
+    {
+      "platform": "reddit",
+      "status": "fulfilled",
+      "value": {
+        "title": "LocalLlama",
+        "posts": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "source": "GitHub Trend (trend.ondo.sh)",
+  "observedAt": "2026-11-22T01:04:37.149894+00:00",
+  "issue": "2026-11-21",
+  "previousSnapshotUrl": "https://trend.ondo.sh/github/2026-11-14/en.html",
+  "currentSnapshotUrl": "https://trend.ondo.sh/github/2026-11-21/en.html",
+  "metric": "Archived reported stars gained in the previous 7 days. Retrospective rolling window, not exact Beijing calendar-day totals.",
+  "fallbackReason": "Primary Rank Radar marks all relevant previous-window entries approximate. Prior baseline 2026-11-07 is missing and several gains use 2026-11-09 instead. The main table replaces BOTH weekly columns with the same alternate archive.",
+  "items": [
+    {
+      "repo": "morluto/rea",
+      "previousWeeklyGain": 19007,
+      "weeklyGain": 13142,
+      "weeklyChangePercent": -30.9,
+      "stars": 472522,
+      "starsSource": "https://trend.ondo.sh/github/2026-11-21/en.html",
+      "sourceAsOf": "2026-11-21"
+    },
+    {
+      "repo": "dream-num/univer",
+      "previousWeeklyGain": 1445,
+      "weeklyGain": 6703,
+      "weeklyChangePercent": 363.9,
+      "stars": 31059,
+      "starsSource": "https://trend.ondo.sh/github/2026-11-21/en.html",
+      "sourceAsOf": "2026-11-21"
+    },
+    {
+      "repo": "alibaba/open-code-review",
+      "previousWeeklyGain": 1648,
+      "weeklyGain": 3764,
+      "weeklyChangePercent": 128.4,
+      "stars": 55025,
+      "starsSource": "https://trend.ondo.sh/github/r/alibaba--open-code-review/en.html",
+      "sourceAsOf": "2026-11-21"
+    },
+    {
+      "repo": "pingdotgg/t3code",
+      "previousWeeklyGain": 9491,
+      "weeklyGain": 8817,
+      "weeklyChangePercent": -7.1,
+      "stars": 69198,
+      "starsSource": "https://trend.ondo.sh/github/2026-11-21/en.html",
+      "sourceAsOf": "2026-11-21"
+    },
+    {
+      "repo": "stablyai/orca",
+      "previousWeeklyGain": 6436,
+      "weeklyGain": 6912,
+      "weeklyChangePercent": 7.4,
+      "stars": 131789,
+      "starsSource": "https://trend.ondo.sh/github/2026-11-21/en.html",
+      "sourceAsOf": "2026-11-21"
+    },
+    {
+      "repo": "debpalash/VoiceStudio",
+      "previousWeeklyGain": 6886,
+      "weeklyGain": 5342,
+      "weeklyChangePercent": -22.4,
+      "stars": 115865,
+      "starsSource": "https://trend.ondo.sh/github/2026-11-21/en.html",
+      "sourceAsOf": "2026-11-21"
+    },
+    {
+      "repo": "mattpocock/skills",
+      "previousWeeklyGain": 6886,
+      "weeklyGain": 5269,
+      "weeklyChangePercent": -23.5,
+      "stars": 329609,
+      "starsSource": "https://trend.ondo.sh/github/2026-11-21/en.html",
+      "sourceAsOf": "2026-11-21"
+    },
+    {
+      "repo": "pbakaus/impeccable",
+      "previousWeeklyGain": 4740,
+      "weeklyGain": 4349,
+      "weeklyChangePercent": -8.2,
+      "stars": 114430,
+      "starsSource": "https://trend.ondo.sh/github/r/pbakaus--impeccable/en.html",
+      "sourceAsOf": "2026-11-21"
+    },
+    {
+      "repo": "ZhuLinsen/daily_stock_analysis",
+      "previousWeeklyGain": 4500,
+      "weeklyGain": 1428,
+      "weeklyChangePercent": -68.3,
+      "stars": 73630,
+      "starsSource": "https://trend.ondo.sh/github/r/ZhuLinsen--daily_stock_analysis/en.html",
+      "sourceAsOf": "2026-11-21"
+    }
+  ]
+}

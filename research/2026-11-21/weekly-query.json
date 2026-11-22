@@ -1,0 +1,29 @@
+{
+  "intent": "breaking_news",
+  "freshness_mode": "strict_recent",
+  "cluster_mode": "story",
+  "subqueries": [
+    {
+      "label": "open source tools",
+      "search_query": "open source AI tools",
+      "ranking_query": "Which open-source AI projects attracted substantive discussion and releases in the target week?",
+      "sources": [
+        "reddit",
+        "hackernews",
+        "github"
+      ],
+      "weight": 1
+    },
+    {
+      "label": "agent infrastructure",
+      "search_query": "agent workflow runtime",
+      "ranking_query": "What open-source agent infrastructure changes attracted developer attention?",
+      "sources": [
+        "reddit",
+        "hackernews",
+        "github"
+      ],
+      "weight": 0.8
+    }
+  ]
+}

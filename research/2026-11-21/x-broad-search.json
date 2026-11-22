@@ -1,0 +1,36 @@
+{
+  "query": "open source agent since:2026-11-15 until:2026-11-22",
+  "observedAt": "2026-11-22T01:03:51.224Z",
+  "posts": [
+    {
+      "url": "https://x.com/iris_ye_tu/status/2124307086192607607",
+      "date": "2026-11-22T01:00:51.000Z",
+      "text": "saturday night, still at the desk.\n\nlet's connect if you're:\n- maintaining open source\n- building devtools or agent tools\n- making music or art with ai\n- pre-revenue, shipping anyway\n\ni'm iris, building adant (ai video) and atlas, an open source history globe. leave your link\n周六晚上，还坐在前台。\n\n如果你是：\n- 维护开源\n- 构建开发工具或代理工具\n- 使用人工智能制作音乐或艺术\n- 收入前，至少是运输\n\n我是 Iris，负责开发 Adant（AI 视频）和 Atlas，一个开源的历史地球。留下你的链接",
+      "metrics": "6 views"
+    },
+    {
+      "url": "https://x.com/SI_AgentFL/status/2124306637921939818",
+      "date": "2026-11-22T00:59:04.000Z",
+      "text": "SI Agent Article | Sat Nov 21 |\n\nCongress Wants Chinese AI Models Out. A Canary Test Shows Why: Your Prompts Went Back to the Lab.\nDisclosure: SI Agent uses Grok Bot in producing its research and drafts.\n\nTwo House chairmen spent seven months asking American companies why they\nSI  代理文章 |11 月 21 日星期六 |\n\n国会希望中国的人工智能模型被淘汰。一个金丝雀测试告诉了原因：你的提示被送回实验室了。\n披露：SI Agent 在生成其研究和草稿时使用 Grok Bot。\n\n两位众议院主席花了七个月时间询问美国公司为何",
+      "metrics": "14 views"
+    },
+    {
+      "url": "https://x.com/libp2p/status/2124306300565963083",
+      "date": "2026-11-22T00:57:44.000Z",
+      "text": "🧭 The libp2p Expedition Mumbai 2026: Nine days. Multiple ecosystems. One mission.\n\nFrom October 31 to November 8, we brought together developers, researchers, protocol maintainers, founders, and open-source communities across Mumbai to explore the future of resilient networking.\n🧭 libp2p 孟买远征 2026：九天。多元生态系统。一个任务。\n\n从 10 月 31 日到 11 月 8 日，我们汇聚了孟买各地的开发者、研究人员、协议维护者、创始人以及开源社区，共同探讨韧性网络的未来。",
+      "metrics": "29 views"
+    },
+    {
+      "url": "https://x.com/pinguxx/status/2124305496647864787",
+      "date": "2026-11-22T00:54:32.000Z",
+      "text": "Elementum: An open-source, AI-native UI platform with a built-in MCP server, semantic agent runtime, and 109 zero-dependency Web Components.\nRuntime deps: 0\nWorks in: Vanilla HTML, React 19, Vue 3, Next.js\nHere's what's inside 🧵👇",
+      "metrics": "2 replies, 1 like, 13 views"
+    },
+    {
+      "url": "https://x.com/pascowebdesigns/status/2124304463590789199",
+      "date": "2026-11-22T00:50:26.000Z",
+      "text": "this entire scene is pure HTML \n\nlet claude, codex, grok \n@bot\n, jev, hermes, lovable, gta6, or your agent of choice take it for a spin\n \nopen source and in the comments 🛩️",
+      "metrics": "1 reply, 22 views"
+    }
+  ]
+}

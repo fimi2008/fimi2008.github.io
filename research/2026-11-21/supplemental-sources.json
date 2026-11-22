@@ -1,0 +1,35 @@
+{
+  "observedAt": "2026-11-22T01:09:30.461042+00:00",
+  "sources": [
+    {
+      "url": "https://github.com/NVIDIA/SkillEvaluator/releases/tag/v1.0.1",
+      "publishedAt": "2026-11-18T00:10:00Z",
+      "finding": "First complete 1.0 series release includes HarnessCheck, NeMo Gym backend, configurable quality checks and clearer coverage reports."
+    },
+    {
+      "url": "https://github.com/dream-num/univer/releases/tag/v1.6.0",
+      "publishedAt": "2026-11-21T08:52:00Z",
+      "finding": "Formula and permission changes. Base Gantt and mobile PDF features identified as Pro in release notes."
+    },
+    {
+      "url": "https://www.reddit.com/r/AI_Agents/comments/1xxmpx1/i_ran_nvidias_skillspector_on_four_popular_agent/",
+      "publishedAt": "2026-11-16",
+      "finding": "Author reports SkillSpector scans of four popular skill repos. Security scanning is distinct from dynamic with/without-skill task evaluation."
+    },
+    {
+      "url": "https://docs.nvidia.com/skills/skillevaluator/agent-skill",
+      "finding": "Companion skill calls CLI and reads reports. Dynamic evaluation compares with and without the skill."
+    },
+    {
+      "url": "https://www.douyin.com/video/7710439121986014514",
+      "publishedAt": "2026-11-21T10:01:00+08:00",
+      "author": "FredTalk",
+      "finding": "Roundup describes model gateways, local video editing, SkillSpector and personal agents. Video popularity metrics are not used as GitHub growth."
+    },
+    {
+      "url": "https://x.com/choopyplug1/status/2122823987306586152",
+      "publishedAt": "2026-11-17T22:47:33Z",
+      "finding": "One original discussing a design-tool stack. Thin sample, not treated as a platform-wide trend."
+    }
+  ]
+}

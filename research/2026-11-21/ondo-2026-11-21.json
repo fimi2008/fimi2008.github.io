@@ -1,0 +1,148 @@
+{
+  "url": "https://trend.ondo.sh/github/2026-11-21/en.html",
+  "observedAt": "2026-11-22T01:04:37.149894+00:00",
+  "asOf": "2026-11-21",
+  "metric": "reported 7-day star gains",
+  "items": [
+    {
+      "repo": "morluto/rea",
+      "weeklyGain": 13142,
+      "stars": 472522
+    },
+    {
+      "repo": "pingdotgg/t3code",
+      "weeklyGain": 8817,
+      "stars": 69198
+    },
+    {
+      "repo": "stablyai/orca",
+      "weeklyGain": 6912,
+      "stars": 131789
+    },
+    {
+      "repo": "dream-num/univer",
+      "weeklyGain": 6703,
+      "stars": 31059
+    },
+    {
+      "repo": "obra/superpowers",
+      "weeklyGain": 5995,
+      "stars": 323542
+    },
+    {
+      "repo": "boykopovar/AnyPS5",
+      "weeklyGain": 5529,
+      "stars": 59434
+    },
+    {
+      "repo": "DietrichGebert/ponytail",
+      "weeklyGain": 5435,
+      "stars": 196195
+    },
+    {
+      "repo": "affaan-m/ECC",
+      "weeklyGain": 5411,
+      "stars": 308234
+    },
+    {
+      "repo": "debpalash/VoiceStudio",
+      "weeklyGain": 5342,
+      "stars": 115865
+    },
+    {
+      "repo": "mattpocock/skills",
+      "weeklyGain": 5269,
+      "stars": 329609
+    },
+    {
+      "repo": "pbakaus/impeccable",
+      "weeklyGain": 4349,
+      "stars": null
+    },
+    {
+      "repo": "mvanhorn/last30days-skill",
+      "weeklyGain": 4207,
+      "stars": null
+    },
+    {
+      "repo": "Leonxlnx/taste-skill",
+      "weeklyGain": 4155,
+      "stars": null
+    },
+    {
+      "repo": "we-promise/sure",
+      "weeklyGain": 1932,
+      "stars": null
+    },
+    {
+      "repo": "ZhuLinsen/daily_stock_analysis",
+      "weeklyGain": 1428,
+      "stars": null
+    },
+    {
+      "repo": "anomalyco/hex",
+      "weeklyGain": 1193,
+      "stars": null
+    },
+    {
+      "repo": "D4Vinci/Scrapling",
+      "weeklyGain": 1964,
+      "stars": null
+    },
+    {
+      "repo": "cursor/plugins",
+      "weeklyGain": 1769,
+      "stars": null
+    },
+    {
+      "repo": "zed-industries/zed",
+      "weeklyGain": 440,
+      "stars": null
+    },
+    {
+      "repo": "Tencent/LoopForge",
+      "weeklyGain": 4686,
+      "stars": null
+    },
+    {
+      "repo": "alibaba/open-code-review",
+      "weeklyGain": 3764,
+      "stars": null
+    },
+    {
+      "repo": "backnotprop/plannotator",
+      "weeklyGain": 3201,
+      "stars": null
+    },
+    {
+      "repo": "tashfeenahmed/freellmapi",
+      "weeklyGain": 3834,
+      "stars": null
+    },
+    {
+      "repo": "jingyaogong/minimind",
+      "weeklyGain": 2841,
+      "stars": null
+    },
+    {
+      "repo": "p-e-w/heretic",
+      "weeklyGain": 1875,
+      "stars": null
+    },
+    {
+      "repo": "milind-soni/OpenMausBot",
+      "weeklyGain": 3781,
+      "stars": null
+    },
+    {
+      "repo": "ag-ui-protocol/ag-ui",
+      "weeklyGain": 3719,
+      "stars": null
+    },
+    {
+      "repo": "elie222/rakazo",
+      "weeklyGain": 1003,
+      "stars": null
+    }
+  ]
+}

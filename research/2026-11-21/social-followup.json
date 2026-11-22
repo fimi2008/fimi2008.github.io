@@ -1,0 +1,13 @@
+{
+  "observedAt": "2026-11-22T01:01:55.017Z",
+  "x": [
+    {
+      "url": "https://x.com/choopyplug1/status/2122823987306586152",
+      "date": "2026-11-17T22:47:33.000Z",
+      "text": "Fable 5.2 now runs a whole design studio on 12 free tools\n\ndesign agencies are f*cked\n\nsketches. UI. icons. fonts. AI images. live edits\n\n01 Excalidraw → sketch the idea like on a whiteboard before a single line of code\n\nhttps://\ngithub.com/excalidraw/exc\nalidraw\n…\n\n02 Penpot → open-source design\nFable 5.2 现在运行着一个完整的设计工作室，使用 12 个免费工具\n\n设计公司完蛋了\n\n草图。UI。图标。字体。AI 图像。实时剪辑\n\n01 Excalidraw →像在白板上画出一行代码前那样草拟想法\n \nhttps://\ngithub.com/excalidraw/exc\nalidraw\n… \n\n02 Penpot → 开源设计"
+    }
+  ],
+  "reddit": {
+    "publicText": "显示来自 \n所有 Reddit 社区\n 的结果\n\nI have created a tool to observe what happens inside an LLM. Also allows for the comparison of two quantizations of the same model to see at what point they diverge, token by token\nr/LocalLLaMA\n·\n6天前\nI have created a tool to observe what happens inside an LLM. Also allows for the comparison of two quantizations of the same model to see at what point they diverge, token by token\n我创建了一个工具，用来观察 LLM 内部发生了什么。还允许对同一模型的两个量子化进行比较，逐个令牌判断它们在哪一点发散\n556 票·52 条评论\nWhy download abliterated Flash Next models when LoRA exists?\nr/LocalLLaMA\n·\n6天前\nWhy download abliterated Flash Next models when LoRA exists?\n既然有 LoRA，为什么还要下载已废弃的 Flash Next 模型？\n526 票·155 条评论\nAudioGhost v1.2: remove any sound from audio or video by typing what it is (local, open source, built on Meta's SAM-Audio)\nr/LocalLLaMA\n·\n4天前\nAudioGhost v1.2: remove any sound from audio or video by typing what it is (local, open source, built on Meta's SAM-Audio)\nAudioGhost v1.2：通过输入音频或视频中的声音（本地、开源、基于 Meta 的 SAM-Audio 构建）去除任何声音。\n453 票·29 条评论\nBlue TTS v3: open-source TTS, about 50x real-time on a CPU\nr/LocalLLaMA\n·\n4天前\nBlue TTS v3: open-source TTS, about 50x real-time on a CPU\nBlue TTS v3：开源 TTS，在 CPU 上实现约 50 倍实时\n420 票·85 条评论\nBasalt: Inkling 2 Mini on one 5090 at up to 613 tok/s decode and 14.100 tok/s prefill (NVFP4)\nr/LocalLLaMA\n·\n11小时前\nBasalt: Inkling 2 Mini on one 5090 at up to 613 tok/s decode and 14.100 tok/s prefill (NVFP4)\nBasalt：Inkling 2 Mini 在一台 5090 上，最高可解码 613 tok/s，预填充速度为 14.100 tok/s（NVFP4）\n416 票·146 条评论\nGoes further with Koharu, the local-first manga translator with AI agents built in!\nr/LocalLLaMA\n·\n3天前\nGoes further with Koharu, the local-first manga translator with AI agents built in!\n《小春》更进一步，这款本地首创的漫画翻译器内置了 AI 代理！\n394 票·64 条评论\nTencent Hy4 (flagship multimodal MoE A49B/770B) released\nr/LocalLLaMA\n·\n2天前\nTencent Hy4 (flagship multimodal MoE A49B/770B) released\n368 票·69 条评论"
+  }
+}
