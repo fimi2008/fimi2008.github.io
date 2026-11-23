@@ -1,0 +1,17 @@
+film (with sound): <film-folder>/out/cactus-umbrella.mp4
+sound check: -14.1 LUFS, true peak -1.8 dBTP, OK
+hero size: shot 0 "enter" wide fills 44.1% of the short side (needs >= 33.0%)
+hero size: shot 1 "water" medium fills 67.3% of the short side (needs >= 40.0%)
+hero size: shot 2 "umbrella" close-up fills 140.5% of the short side (needs >= 0.0%)
+length 20.00s, 240 drawings, 1080×1920, style Clay Stop-motion
+  beat "approach": 16 drawings, 8 distinct cells
+  beat "raise": 44 drawings, 5 distinct cells
+  beat "watering": 58 drawings, 3 distinct cells
+  beat "surprise": 26 drawings, 8 distinct cells
+  beat "payoff": 96 drawings, 5 distinct cells
+Timesheet.lint: OK (no hold longer than 2.0s)
+shots_lint: OK (3 shots, sizes close-up, medium, wide)
+repeat_report: OK (5 actions, no unchanged replays or overlong loops)
+shot list: work/shots.json (sound.json can time cues by shot)
+size_report: OK (hero size matches across adjacent shots)
+<film-folder>/out/cactus-umbrella.mp4

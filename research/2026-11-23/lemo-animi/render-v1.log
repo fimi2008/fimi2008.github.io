@@ -1,0 +1,18 @@
+film (with sound): <film-folder>/out/cactus-umbrella.mp4
+sound check: -14.1 LUFS, true peak -1.4 dBTP, OK
+hero size: shot 0 "enter" wide fills 44.1% of the short side (needs >= 33.0%)
+hero size: shot 1 "water" medium fills 67.4% of the short side (needs >= 40.0%)
+hero size: shot 2 "umbrella" close-up fills 140.2% of the short side (needs >= 0.0%)
+length 20.00s, 240 drawings, 1080×1920, style Clay Stop-motion
+  beat "approach": 16 drawings, 8 distinct cells
+  beat "raise": 68 drawings, 5 distinct cells
+  beat "watering": 58 drawings, 3 distinct cells
+  beat "surprise": 26 drawings, 8 distinct cells
+  beat "payoff": 72 drawings, 5 distinct cells
+Timesheet.lint: OK (no hold longer than 2.0s)
+shots_lint: OK (3 shots, sizes close-up, medium, wide)
+repeat_report: OK (5 actions, no unchanged replays or overlong loops)
+shot list: work/shots.json (sound.json can time cues by shot)
+size_report: OK (hero size matches across adjacent shots)
+liveness: [WARN] 3.33s from 4.00s the picture barely moves (0.020); see work/liveness.png. Over 2 s needs a local move (blink, ear, tail), a supporting character or the environment (a slow push alone does not count); fix it or list it with review.py add --known
+<film-folder>/out/cactus-umbrella.mp4

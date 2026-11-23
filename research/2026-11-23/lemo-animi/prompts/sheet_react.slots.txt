@@ -1,0 +1,11 @@
+[character] a small round caramel-brown bear made of clay, cream muzzle, two small round ears, dark brown dot eyes, mustard-yellow clay overalls over a cream clay shirt, short sturdy legs, rounded paws, carrying one small sky-blue watering can with a curved handle and a long spout pointing right in both paws
+[action] One continuous surprised reaction after pouring from ABOVE THE HEAD, facing right at eye level. Feet stay fixed. Match the can and raised-arm starting pose to the last cell in the second reference image.
+1 both arms raised ABOVE THE HEAD, watering can tilted 40 degrees above the bear ears, looking down-right.
+2 eyes widen and mouth forms an O, arms and tilted can still high above the head.
+3 elbows bend, lowering the upright can to face height.
+4 can lowers to chest height as the bear straightens.
+5 bear leans back slightly in one surprise overshoot, can held at chest height, ears lagging.
+6 returns to an upright stance, can low in both paws.
+7 head tilts down-right toward the unseen cactus and a puzzled smile begins.
+8 rests upright smiling gently, can low in both paws. No water, no cactus, no floating symbols.
+[held_prop] the same compact sky-blue clay watering can with curved handle and long right-pointing spout, held in both paws throughout

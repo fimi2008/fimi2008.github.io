@@ -94,6 +94,8 @@ h1, h2, h3 { line-height: 1.25; }
 .prose .kailian-prototype, .prose .article-figure { margin: 1.5rem auto; }
 .prose .kailian-prototype-home { max-width: 16rem; }
 .prose .kailian-prototype img, .prose .article-figure img { display: block; width: 100%; }
+.prose .article-film { display: block; width: 100%; max-width: 24rem; height: auto; margin-inline: auto; }
+.prose .article-image-pair { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .75rem; align-items: end; }
 .prose .kailian-prototype figcaption, .prose .article-figure figcaption {
   margin-top: .55rem;
   color: var(--secondary);

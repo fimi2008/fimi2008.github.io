@@ -1,0 +1,32 @@
+{
+  "production_started_at": "2026-11-23T11:39:32.034457+08:00",
+  "plugin": "lemo-animi",
+  "version": "0.1.5",
+  "planned_images": 12,
+  "story": "今天不想洗澡",
+  "parameters": {
+    "duration": 20,
+    "style": "clay",
+    "size": "portrait",
+    "narration": "zh",
+    "bookends": false
+  },
+  "first_render_started_at": "2026-11-23T11:58:35.009180+08:00",
+  "first_render_completed_at": "2026-11-23T11:59:56.333436+08:00",
+  "v2_render_started_at": "2026-11-23T12:03:04.353789+08:00",
+  "accepted_images": 12,
+  "image_generation_calls": 15,
+  "regenerated_assets": [
+    "sheet_open",
+    "sheet_pour",
+    "sheet_react"
+  ],
+  "review_demo_note": "制作自检演示，由 Codex 填写：片尾旁白从17秒提前到15.8秒",
+  "v3_render_started_at": "2026-11-23T12:08:05.664352+08:00",
+  "v3_render_completed_at": "2026-11-23T12:09:41.229244+08:00",
+  "video_frames": 480,
+  "video_duration_seconds": 20,
+  "audio_loudness_lufs": -14.1,
+  "audio_true_peak_dbtp": -1.8,
+  "listened_by_agent": false
+}

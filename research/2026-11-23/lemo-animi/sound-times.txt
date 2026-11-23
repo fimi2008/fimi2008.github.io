@@ -1,0 +1,39 @@
+shot list: work/shots.json (3 shots, 20.00s)
+-- shot 0 "enter" 0.00s
+     0.00s  score section 0
+     0.00s  foley step (auto: rule 0 walk_0)
+     0.33s  foley step (auto: rule 0 walk_4)
+     0.67s  foley step (auto: rule 0 walk_0)
+     0.80s  narration L1
+     1.00s  foley step (auto: rule 0 walk_4)
+     3.50s  score section 1
+     3.50s  hit accent
+     3.50s  foley clink
+-- shot 1 "water" 5.00s
+     5.00s  score section 2  <- "water"
+     5.70s  narration L2
+     7.60s  score section 3
+     7.60s  silence 0 start
+     7.80s  foley whoosh
+     8.30s  hit stop
+     8.30s  foley click
+     8.40s  score section 4
+     8.40s  silence 0 end
+     8.45s  hit sparkle
+     8.45s  foley flow
+     8.70s  foley drip
+     8.95s  foley drip
+     9.20s  foley drip
+     9.45s  foley drip
+     9.70s  foley drip
+     9.90s  foley clink
+    10.00s  foley drip
+    10.15s  foley drip
+-- shot 2 "umbrella" 12.00s
+    12.00s  score section 5  <- "umbrella"
+    12.15s  foley drip
+    12.60s  foley drip
+    13.00s  foley drip
+    15.80s  narration L3
+    15.80s  hit accent
+    19.00s  score section 6
