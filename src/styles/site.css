@@ -91,10 +91,10 @@ h1, h2, h3 { line-height: 1.25; }
 .prose :where(h2, h3) { font-family: var(--serif); }
 .prose a { color: var(--rust); }
 .prose img { max-width: 100%; height: auto; }
-.prose .kailian-prototype { margin: 1.5rem auto; }
+.prose .kailian-prototype, .prose .article-figure { margin: 1.5rem auto; }
 .prose .kailian-prototype-home { max-width: 16rem; }
-.prose .kailian-prototype img { display: block; width: 100%; }
-.prose .kailian-prototype figcaption {
+.prose .kailian-prototype img, .prose .article-figure img { display: block; width: 100%; }
+.prose .kailian-prototype figcaption, .prose .article-figure figcaption {
   margin-top: .55rem;
   color: var(--secondary);
   font-size: .8rem;
