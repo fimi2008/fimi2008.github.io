@@ -1,9 +1,9 @@
 ---
 import Base from '../layouts/Base.astro';
 import EntryList from '../components/EntryList.astro';
-import { entryLabel, entryPath, entrySeries, getEntries } from '../lib/entries';
+import { entryLabel, entryPath, entrySeries, getEntries, seriesLabels } from '../lib/entries';
 const entries = await getEntries();
-const latestAi = ['skills', 'weekly'].flatMap((series) => {
+const latestAi = Object.keys(seriesLabels).flatMap((series) => {
   const latest = entries.find((entry) => entrySeries(entry) === series);
   return latest ? [latest] : [];
 });

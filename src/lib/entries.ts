@@ -1,7 +1,7 @@
 import { getCollection, type CollectionEntry } from 'astro:content';
 
 export type Entry = CollectionEntry<'entries'>;
-export const seriesLabels = { skills: 'Skills', weekly: '前沿技术' } as const;
+export const seriesLabels = { skills: 'Skills', weekly: '前沿技术', 'agent-design': 'Agent 系统设计' } as const;
 
 export const trainingLabels = {
   strength: '撸铁日记',

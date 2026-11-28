@@ -136,3 +136,45 @@ h1, h2, h3 { line-height: 1.25; }
   .prose table { font-size: .74rem; }
   .prose td, .prose th { padding: .4rem .25rem; }
 }
+
+.prose .agent-diagram {
+  padding: clamp(.85rem, 3vw, 1.4rem);
+  border: 1px solid var(--rule);
+  background: var(--rose);
+}
+.prose .agent-diagram ol {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(0, 1fr);
+  gap: 1.35rem;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.prose .agent-diagram li {
+  position: relative;
+  padding: .7rem .8rem;
+  border: 1px solid var(--rule);
+  border-top: 2px solid var(--rust);
+  background: var(--paper);
+  font-size: .85rem;
+  line-height: 1.55;
+}
+.prose .agent-diagram li + li::before {
+  position: absolute;
+  top: 50%;
+  left: -.68rem;
+  transform: translate(-50%, -50%);
+  color: var(--rust);
+  content: '→' / '';
+}
+.prose .agent-diagram strong { display: block; margin-bottom: .25rem; }
+
+@media (max-width: 600px) {
+  .prose .agent-diagram ol { grid-auto-flow: row; }
+  .prose .agent-diagram li + li::before {
+    top: -.68rem;
+    left: 50%;
+    content: '↓' / '';
+  }
+}
