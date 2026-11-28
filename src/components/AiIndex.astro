@@ -1,15 +1,32 @@
 ---
 import Base from '../layouts/Base.astro';
 import EntryList from './EntryList.astro';
-import { entrySeries, getEntries, seriesLabels } from '../lib/entries';
+import { entryPath, entrySeries, getEntries, seriesLabels } from '../lib/entries';
 const { series } = Astro.props as { series?: keyof typeof seriesLabels };
 const entries = (await getEntries()).filter((entry) => series ? entrySeries(entry) === series : Boolean(entrySeries(entry)));
 const title = series ? seriesLabels[series] : 'AI 观察';
 const descriptions = {
   skills: '热门 Agent Skills、适用场景与 Codex 安装方式。',
   weekly: 'GitHub 热门项目与最近值得关注的 AI 动态。',
-  'agent-design': '用一笔差旅报销拆解 Agent 的职责、任务、运行时与外部能力。',
+  'agent-design': '用一笔差旅报销拆解 Agent 的职责、知识与记忆、工具、业务流程和上线运营。',
 } satisfies Record<keyof typeof seriesLabels, string>;
+const chapters = [
+  { title: 'Agent 的基本结构', start: 1, end: 3 },
+  { title: '知识库、记忆与上下文', start: 4, end: 6 },
+  { title: '工具与 MCP 服务管理', start: 7, end: 9 },
+  { title: 'SOP、任务恢复与多 Agent', start: 10, end: 13 },
+  { title: '可观测性、评估与运营', start: 14, end: 17 },
+];
+const chapterEntries = (start: number, end: number) => {
+  const paths = Array.from({ length: end - start + 1 }, (_, index) =>
+    `/articles/agent-design-${String(start + index).padStart(2, '0')}/`,
+  );
+  const byPath = new Map(entries.map((entry) => [entryPath(entry), entry]));
+  return paths.flatMap((path) => {
+    const entry = byPath.get(path);
+    return entry ? [entry] : [];
+  });
+};
 ---
 <Base title={title} active="ai">
   <header class="page-intro">
@@ -23,5 +40,13 @@ const descriptions = {
       <a href={`/ai/${key}/`} aria-current={series === key ? 'page' : undefined}>{label}</a>
     ))}
   </nav>
-  <EntryList entries={entries} />
+  {series === 'agent-design' ? chapters.map(({ title, start, end }) => {
+    const articles = chapterEntries(start, end);
+    return articles.length ? (
+      <section class="agent-chapter" aria-labelledby={`chapter-${start}`}>
+        <header class="section-head"><h2 id={`chapter-${start}`}>{title}</h2></header>
+        <EntryList entries={articles} headingLevel="h3" />
+      </section>
+    ) : null;
+  }) : <EntryList entries={entries} />}
 </Base>

@@ -137,6 +137,8 @@ h1, h2, h3 { line-height: 1.25; }
   .prose td, .prose th { padding: .4rem .25rem; }
 }
 
+.agent-chapter { margin-top: 2rem; }
+
 .prose .agent-diagram {
   padding: clamp(.85rem, 3vw, 1.4rem);
   border: 1px solid var(--rule);

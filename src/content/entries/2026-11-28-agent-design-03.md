@@ -60,4 +60,4 @@ path: "/articles/agent-design-03/"
 
 下一单元会继续拆开图里的「组装上下文」，分别看知识库、记忆和本轮输入怎样配合。
 
-[上一篇：一句话怎样变成一个可继续的任务？](/articles/agent-design-02/) · [专栏目录](/ai/agent-design/)
+[上一篇：一句话怎样变成一个可继续的任务？](/articles/agent-design-02/) · [专栏目录](/ai/agent-design/) · [下一篇：知识库怎样建，检索结果才有依据？](/articles/agent-design-04/)
