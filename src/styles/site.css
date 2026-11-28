@@ -180,3 +180,49 @@ h1, h2, h3 { line-height: 1.25; }
     content: '↓' / '';
   }
 }
+
+.prose .agent-timeline {
+  padding: clamp(.85rem, 3vw, 1.4rem);
+  border: 1px solid var(--rule);
+  background: var(--rose);
+}
+.prose .agent-timeline .timeline-title {
+  margin: 0 0 .75rem;
+  font-weight: 700;
+}
+.prose .agent-timeline ol {
+  margin: 0;
+  padding: 0 0 0 .9rem;
+  border-inline-start: 2px solid var(--rust);
+  list-style: none;
+}
+.prose .agent-timeline li {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(7rem, 1fr) minmax(0, 3fr);
+  gap: .35rem .8rem;
+  padding: .6rem .8rem;
+  background: var(--paper);
+  font-size: .88rem;
+  line-height: 1.55;
+}
+.prose .agent-timeline li + li { margin-top: .4rem; }
+.prose .agent-timeline li::before {
+  position: absolute;
+  top: .95rem;
+  inset-inline-start: calc(-.9rem - 5px);
+  width: 8px;
+  height: 8px;
+  border: 1px solid var(--paper);
+  border-radius: 50%;
+  background: var(--rust);
+  content: '';
+}
+.prose .agent-timeline .timeline-fault {
+  outline: 1px solid var(--rust);
+}
+.prose .agent-timeline .timeline-fault strong { color: var(--rust); }
+
+@media (max-width: 560px) {
+  .prose .agent-timeline li { grid-template-columns: minmax(0, 1fr); }
+}
