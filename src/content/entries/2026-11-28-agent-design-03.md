@@ -97,4 +97,6 @@ path: "/articles/agent-design-03/"
 
 对于小型助手，我会先在同一进程实现这套阶段接口。需要独立部署执行器、重用进程或集中管理供应商凭据时，再把边界搬到进程间。业务流程、权限和测试可以沿用。
 
+想了解真实引擎怎样承担这部分工作，可以接着读[《DeepSeek Harness 负责什么？》](/articles/deepseek-harness-engine/)。
+
 [上一篇：一句话怎样变成一个可继续的任务？](/articles/agent-design-02/) · [专栏目录](/ai/agent-design/) · [下一篇：知识库怎样建，检索结果才有依据？](/articles/agent-design-04/)

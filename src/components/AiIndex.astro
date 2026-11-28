@@ -21,6 +21,7 @@ const chapterEntries = (start: number, end: number) => {
   const paths = Array.from({ length: end - start + 1 }, (_, index) =>
     `/articles/agent-design-${String(start + index).padStart(2, '0')}/`,
   );
+  if (start === 1) paths.push('/articles/deepseek-harness-engine/');
   const byPath = new Map(entries.map((entry) => [entryPath(entry), entry]));
   return paths.flatMap((path) => {
     const entry = byPath.get(path);
